@@ -2115,6 +2115,16 @@
                                         <td class="bRight">Bet Detail.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">agentPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">apiPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of api((amblotto).</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Identity of bet data.</td>
@@ -2206,6 +2216,8 @@
         <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-100</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
+                <span class="hljs-attr">"agentPt"</span>: <span class="hljs-number">"20=="</span>,
+                <span class="hljs-attr">"apiPt"</span>: <span class="hljs-number">"80"</span>,
                 <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjYyMi0xMA=="</span>,
                 <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"10"</span>,
                 <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
@@ -2423,6 +2435,16 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">Bet Detail.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">agentPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">apiPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of api((amblotto).</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">betKey</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">User bet number record key.</td>
@@ -2514,6 +2536,8 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
         <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-80</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
+                <span class="hljs-attr">"agentPt"</span>: <span class="hljs-number">"20"</span>,
+                <span class="hljs-attr">"apiPt"</span>: <span class="hljs-string">"80"</span>,
                 <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU0Mi0y"</span>,
                 <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"2"</span>,
                 <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
@@ -2527,6 +2551,8 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>
             },
             {
+                <span class="hljs-attr">"agentPt"</span>: <span class="hljs-number">"20"</span>,
+                <span class="hljs-attr">"apiPt"</span>: <span class="hljs-string">"80"</span>,
                 <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU0Mi0z"</span>,
                 <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"3"</span>,
                 <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
@@ -2719,6 +2745,16 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">Bet Detail.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">agentPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">apiPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of api((amblotto).</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Bet id of bet position.</td>
@@ -2826,6 +2862,8 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
         <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-string"> 9000</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
+                <span class="hljs-attr">"agentPt"</span>: <span class="hljs-string">"20"</span>,
+                <span class="hljs-attr">"apiPt"</span>: <span class="hljs-string">"80"</span>,
                 <span class="hljs-attr">"betKey"</span>: <span class="hljs-string">"NjU3OS0x"</span>,
                 <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"1"</span>,
                 <span class="hljs-attr">"betType"</span>: <span class="hljs-string">"top3"</span>,
@@ -2861,7 +2899,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <span class="hljs-string">"0"</span>
             ],
         },
-        <span class="hljs-attr">"resultlink"</span>: <span class="hljs-string">"https://test-front.pirate168.com/api/reward/21330"</span>,
+        <span class="hljs-attr">"resultlink"</span>: <span class="hljs-string">"https://dev-ag.pirate168.com/api/reward/21330"</span>,
         <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-14 20:26:39"</span>
     }
 }</code></pre>
@@ -3033,6 +3071,16 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">Bet Detail.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">agentPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">apiPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of api((amblotto).</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">betKey</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight">User bet number record key.</td>
@@ -3124,6 +3172,8 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
         <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-10</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
+                <span class="hljs-attr">"agentPt"</span>: <span class="hljs-string">"20"</span>,
+                <span class="hljs-attr">"apiPt"</span>: <span class="hljs-number">"80"</span>,
                 <span class="hljs-attr">"betKey"</span>: <span class="hljs-string">"NjU3OS0x"</span>,
                 <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1"</span>,
                 <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3"</span>,
