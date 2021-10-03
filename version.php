@@ -20,13 +20,13 @@
                             <tbody>
                                 <tr>
                                     <td class="bRight">1.0</td>
-                                    <td class="bRight"></td>
+                                    <td class="bRight txtCenter"></td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td class="bRight">1.1</td>
-                                    <td class="bRight">Update Request</td>
-                                    <td>PT Api and Agent</td>
+                                    <td class="bRight txtCenter">Update Request</td>
+                                    <td class="txtCenter">PT Api and Agent</td>
                                 </tr>
                                 <!-- <tr>
                                     <td class="bRight">3.0</td>
