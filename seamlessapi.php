@@ -2216,7 +2216,7 @@
         <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-100</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
-                <span class="hljs-attr">"agentPt"</span>: <span class="hljs-number">"20=="</span>,
+                <span class="hljs-attr">"agentPt"</span>: <span class="hljs-number">"20"</span>,
                 <span class="hljs-attr">"apiPt"</span>: <span class="hljs-number">"80"</span>,
                 <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjYyMi0xMA=="</span>,
                 <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"10"</span>,
