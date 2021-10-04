@@ -25,8 +25,8 @@
                                 </tr>
                                 <tr>
                                     <td class="bRight">1.1</td>
-                                    <td class="bRight txtCenter">Update Request</td>
-                                    <td class="txtCenter">PT Api and Agent</td>
+                                    <td class="bRight txtCenter">Update PT Api and Agent</td>
+                                    <td></td>
                                 </tr>
                                 <!-- <tr>
                                     <td class="bRight">3.0</td>

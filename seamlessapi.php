@@ -2122,7 +2122,7 @@
                                     <tr>
                                         <td class="bRight">apiPt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight">Position tracking (%) of api((amblotto).</td>
+                                        <td class="bRight">Position tracking (%) of api(amblotto).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betId</td>
@@ -2442,7 +2442,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">apiPt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight">Position tracking (%) of api((amblotto).</td>
+                                        <td class="bRight">Position tracking (%) of api(amblotto).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
@@ -2752,7 +2752,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">apiPt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight">Position tracking (%) of api((amblotto).</td>
+                                        <td class="bRight">Position tracking (%) of api(amblotto).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betId</td>
@@ -3078,7 +3078,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">apiPt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight">Position tracking (%) of api((amblotto).</td>
+                                        <td class="bRight">Position tracking (%) of api(amblotto).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
