@@ -2212,7 +2212,7 @@
         <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6622"</span>,
         <span class="hljs-attr">"type"</span>: <span class="hljs-string">"yeekeelotto"</span>,
         <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
-        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">"21605"</span>,
+        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">21605</span>,
         <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-100</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
@@ -2223,8 +2223,8 @@
                 <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
                 <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"99"</span>,
                 <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Pending"</span>,
-                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">"10"</span>,
-                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">"10"</span>,
+                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10</span>,
+                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10</span>,
                 <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
                 <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
                 <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0</span>,
