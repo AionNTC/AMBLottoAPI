@@ -104,7 +104,7 @@
                             </label>
                             <label>
 
-                                https://test-front.pirate168.com/apiRoute/member/loginRequest
+                                https://test-api.pirate168.com/apiRoute/member/loginRequest
                             </label>
                         </div>
                         <div class="col-12">
@@ -3715,7 +3715,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                         <div class="col-12">
                             <label class="txtHead">Url : </label> 
-                            <label>https://test-front.pirate168.com/apiRoute/api/memberBetHistories</label>
+                            <label>https://test-api.pirate168.com/apiRoute/api/memberBetHistories</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead">
@@ -4197,7 +4197,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 Url :
                             </label>
                             <label>
-                            https://test-front.pirate168.com/apiRoute/api/betHistories
+                            https://test-api.pirate168.com/apiRoute/api/betHistories
                             </label>
                         </div>
                         <div class="col-12">
@@ -4732,7 +4732,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 Url :
                             </label>
                             <label>
-                                https://test-front.pirate168.com/apiRoute/api/GetListBetResult
+                                https://test-api.pirate168.com/apiRoute/api/GetListBetResult
                             </label>
                         </div>
                         <div class="col-12">
