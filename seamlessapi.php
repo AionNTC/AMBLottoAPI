@@ -3612,7 +3612,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
         <span class="hljs-attr">"lottotype"</span>: <span class="hljs-number">"yeekeelotto"</span>,
         <span class="hljs-attr">"round"</span>: <span class="hljs-number">11</span>,
         <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">400</span>,
-        <span class="hljs-attr">"status"</span>: <span class="hljs-number">"Success"</span>,
+        <span class="hljs-attr">"status"</span>: <span class="hljs-number">"Cancel"</span>,
         <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2020-05-03 20:36:13"</span>,
         <span class="hljs-attr">"requestDate"</span>: <span class="hljs-string">"2020-05-03 20:36:13"</span>
     }
