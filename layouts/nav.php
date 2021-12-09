@@ -128,7 +128,7 @@
                                 class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
-                            <ul>
+                            <ul style="height: 600px;overflow-y:auto;">
                                 <li id="manu41"><a class="waves-effect submenu" href="seamlessapi.php#tabOne">
                                         <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">4.1
                                             Introduction
@@ -194,6 +194,46 @@
                                 <li id="manu463"><a class="waves-effect submenu" href="seamlessapi.php#tabThirteen">
                                         <span class="sv-normal" set-lan="text:3.6.3">4.6.3
                                         GetListBetResult</span></a>
+                                </li>
+                                <li id="manu464"><a class="waves-effect submenu" href="seamlessapi.php#tab464">
+                                        <span class="sv-normal" set-lan="text:3.6">4.6.4 Setting Back-Office
+                                        </span></a>
+                                </li>
+                                <li id="manu4641"><a class="waves-effect submenu" href="seamlessapi.php#tab4641">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.1
+                                        AddHotnumber</span></a>
+                                </li>
+                                <li id="manu4642"><a class="waves-effect submenu" href="seamlessapi.php#tab4642">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.2
+                                        EditHotnumber</span></a>
+                                </li>
+                                <li id="manu4643"><a class="waves-effect submenu" href="seamlessapi.php#tab4643">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.3
+                                        DeleteHotnumber</span></a>
+                                </li>
+                                <li id="manu4644"><a class="waves-effect submenu" href="seamlessapi.php#tab4644">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.4
+                                        AddLimitnumber</span></a>
+                                </li>
+                                <li id="manu4645"><a class="waves-effect submenu" href="seamlessapi.php#tab4645">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.5
+                                        DeleteLimitnumber</span></a>
+                                </li>
+                                <li id="manu4646"><a class="waves-effect submenu" href="seamlessapi.php#tab4646">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.6
+                                        SetPlaceout</span></a>
+                                </li>
+                                <li id="manu47"><a class="waves-effect submenu" href="seamlessapi.php#tab47">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.7
+                                        ListPlaceout</span></a>
+                                </li>
+                                <li id="manu48"><a class="waves-effect submenu" href="seamlessapi.php#tab48">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.8
+                                        ListHotnumberandLimitnumber</span></a>
+                                </li>
+                                <li id="manu49"><a class="waves-effect submenu" href="seamlessapi.php#tab49">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.9
+                                        Detail</span></a>
                                 </li>
                             </ul>
                         </div>

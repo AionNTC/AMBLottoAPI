@@ -4972,7 +4972,2697 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                 </div>
+                <div class="pb-5"></div>
+                <lable id="tab464"><b style="color: #19A17A !important;">4.6.4 Setting Back-Office</b></lable>
+                <div class="pb-4"></div>
 
+                <div class="col-12" id="tab4641">
+                    <lable><b style="color: #19A17A !important;">4.6.4.1 AddHotnumber</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/api/settingBO
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410A">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td>System generate key ID after crate Agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">services</td>
+                                        <td class="bRight">String</td>
+                                        <td>Fixed value"AddHotnumber"</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">hotnumber</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">lottotype(thailotto)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of lotto type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">subtype(top3)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of sub type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">number</td>
+                                        <td class="bRight">String</td>
+                                        <td>This number of add hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">amount</td>
+                                        <td class="bRight">float</td>
+                                        <td>Amount of hot number placeout.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"superadmincash1"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"345afccac1c08a4f8e37fbf1ac4f6e2a63e298062482c3f5192a63f3f8"</span>,
+    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"AddHotnumber"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"hotnumber"</span>: {
+            <span class="hljs-attr">"thailotto"</span>: {
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"number"</span>: <span class="hljs-string">"123"</span>,
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">100</span>
+                }
+            }
+        }
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                        Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>Add Hotnumber Success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lenght at top3</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>can't set amount > placeout</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentUsername</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentApiKey</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid Services</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Services Not Found</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid keydata</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lottotype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid subtype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lenght at lottoset (หวยชุดทุกประเภท)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>yeekeelottocan't set Hotnumber</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>pingponglottocan't set Hotnumber</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>stockkorea can't set Hotnumber (หวยหุ้นทุกประเภท)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Error Request body is not an object</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>amount less than balance, should  more than 0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid amount</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid type number</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Add Hotnumber Success"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5"></div>
+
+                <div class="col-12" id="tab4642">
+                    <lable><b style="color: #19A17A !important;">4.6.4.2 EditHotnumber</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/api/settingBO
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410A">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td>System generate key ID after crate Agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">services</td>
+                                        <td class="bRight">String</td>
+                                        <td>Fixed value"EditHotnumber"</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">hotnumber</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">lottotype(thailotto)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of lotto type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">subtype(top3)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of sub type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">number</td>
+                                        <td class="bRight">String</td>
+                                        <td>This number of add hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">amount</td>
+                                        <td class="bRight">float</td>
+                                        <td>Amount of hot number placeout.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"superadmincash"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"345afccac1c08a4f8e37fbf1ac4f6e2a63e298062482c3f5192a63f3f8"</span>,
+    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"EditHotnumber"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"hotnumber"</span>: {
+            <span class="hljs-attr">"thailotto"</span>: {
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"number"</span>: <span class="hljs-string">"123"</span>,
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">1000</span>
+                }
+            }
+        }
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                        Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>Update HotNumber Success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid hot number</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentUsername</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentApiKey</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid Services</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Services Not Found</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid keydata</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lottotype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid subtype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Error Request body is not an object</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>can't set amount > placeout</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>yeekeelotto doesn't have hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>pingponglotto doesn't have hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>stockkorea doesn't have hotnumber. (หวยหุ้นทุกประเภท)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lenght at lottoset (หวยชุดทุกประเภท)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>amount less than balance, should  more than 0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid type number</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Update HotNumber Success"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5"></div>
+
+                <div class="col-12" id="tab4643">
+                    <lable><b style="color: #19A17A !important;">4.6.4.3 DeleteHotnumber</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/api/settingBO
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410A">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td>System generate key ID after crate Agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">services</td>
+                                        <td class="bRight">String</td>
+                                        <td>Fixed value"DeleteHotnumber"</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">hotnumber</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">lottotype(thailotto)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of lotto type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">subtype(top3)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of sub type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">number</td>
+                                        <td class="bRight">String</td>
+                                        <td>This number of add hotnumber.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"superadmincash"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"345afccac1c08a4f8e37fbf1ac4f6e2a63e298062482c3f5192a63f3f8"</span>,
+    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"DeleteHotnumber"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"hotnumber"</span>: {
+            <span class="hljs-attr">"thailotto"</span>: {
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"number"</span>: <span class="hljs-string">"123"</span>
+                }
+            }
+        }
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                        Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>Delete HotNumber Success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid hot number</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentUsername</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentApiKey</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Error Request body is not an object</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid Services</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Services Not Found</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lottotype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid subtype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>yeekeelotto doesn't have hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>pingponglotto doesn't have hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>stockkorea doesn't have hotnumber. (หวยหุ้นทุกประเภท)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid keydata</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid type number</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Delete HotNumber Success"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5"></div>
+
+                <div class="col-12" id="tab4644">
+                    <lable><b style="color: #19A17A !important;">4.6.4.4 AddLimitnumber</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/api/settingBO
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410A">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td>System generate key ID after crate Agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">services</td>
+                                        <td class="bRight">String</td>
+                                        <td>Fixed value"AddLimitnumber"</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">limitnumber</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response limitnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">lottotype(thailotto)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of lotto type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">subtype(top3)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of sub type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">number</td>
+                                        <td class="bRight">String</td>
+                                        <td>This number of add hotnumber.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"superadmincash"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"345afccac1c08a4f8e37fbf1ac4f6e2a63e298062482c3f5192a63f3f8"</span>,
+    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"AddLimitnumber"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"limitnumber"</span>: {
+            <span class="hljs-attr">"thailotto"</span>: {
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"number"</span>: <span class="hljs-string">"999"</span>
+                }
+            }
+        }
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                        Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>Add LimitNumber Success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentUsername</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentApiKey</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid Services</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Services Not Found</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Error Request body is not an object</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid keydata</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lottotype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid subtype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>yeekeelotto doesn't have hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>pingponglotto doesn't have hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>stockkorea doesn't have hotnumber. (หวยหุ้นทุกประเภท)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lenght at lottoset (หวยชุดทุกประเภท)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid type number</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Add LimitNumber Success"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5"></div>
+
+                <div class="col-12" id="tab4645">
+                    <lable><b style="color: #19A17A !important;">4.6.4.5 DeleteLimitnumber</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/api/settingBO
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410A">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td>System generate key ID after crate Agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">services</td>
+                                        <td class="bRight">String</td>
+                                        <td>Fixed value"DeleteLimitnumber"</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">limitnumber</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response limitnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">lottotype(thailotto)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of lotto type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">subtype(top3)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of sub type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">number</td>
+                                        <td class="bRight">String</td>
+                                        <td>This number of add hotnumber.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"superadmincash"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"345afccac1c08a4f8e37fbf1ac4f6e2a63e298062482c3f5192a63f3f8"</span>,
+    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"DeleteLimitnumber"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"limitnumber"</span>: {
+            <span class="hljs-attr">"thailotto"</span>: {
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"number"</span>: <span class="hljs-string">"567"</span>
+                }
+            }
+        }
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                        Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>Delete LimitNumber Success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentUsername</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentApiKey</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid Services</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Services Not Found</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Error Request body is not an object</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid keydata</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lottotype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid subtype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid type number</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Delete LimitNumber Success"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5"></div>
+
+                <div class="col-12" id="tab4646">
+                    <lable><b style="color: #19A17A !important;">4.6.4.6 SetPlaceout</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/api/settingBO
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410A">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td>System generate key ID after crate Agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">services</td>
+                                        <td class="bRight">String</td>
+                                        <td>Fixed value"SetPlaceOut"</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                     <tr>
+                                        <td class="bRight">enable_hotplaceout</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Enable hotplaceout true and faluse.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">placeout</td>
+                                        <td class="bRight">String</td>
+                                        <td>Object response placeout.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">laoslotto(lotto type)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response lottotype.</td>
+                                    </tr>
+                                     <tr>
+                                        <td class="bRight">laoslotto(lotto type)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>แทงได้ 2 แบบ(แบบปกติและแบบชุด)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">top4(subtype)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response subtype.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">amount</td>
+                                        <td class="bRight">float</td>
+                                        <td>Amount at placeout.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">hotplaceout</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response hotplaceout.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-12 d-flex" style="margin-left:0%">
+                                    <pre class="col-6">
+                                    <p style="margin:0;font-size: 1rem;color: #19A17A" class="text-center"><b>หวยชุด</b></p>
+                                        <code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"testcompany"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>,
+    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"SetPlaceOut"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"enable_hotplaceout"</span>: <span class="hljs-string">true</span>,
+        <span class="hljs-attr">"placeout"</span>: {
+            <span class="hljs-attr">"laoslotto"</span>: {
+                <span class="hljs-attr">"laoslotto"</span>: {
+                    <span class="hljs-attr">"top4"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">200</span>
+                    },
+                    <span class="hljs-attr">"row4"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">1</span>
+                    },
+                    <span class="hljs-attr">"top3"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">0</span>
+                    },
+                    <span class="hljs-attr">"row3"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">0</span>
+                    },
+                    <span class="hljs-attr">"top2"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">0</span>
+                    },
+                    <span class="hljs-attr">"bottom2"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">0</span>
+                    },
+                    <span class="hljs-attr">"row2"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">0</span>
+                    },
+                    <span class="hljs-attr">"top1"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">0</span>
+                    },
+                    <span class="hljs-attr">"bottom1"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">0</span>
+                    }
+                },
+                <span class="hljs-attr">"laoslotto_set"</span>: {
+                    <span class="hljs-attr">"lottoset"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">500</span>
+                    }
+                }
+            }
+        },
+        <span class="hljs-attr">"hotplaceout"</span>: {
+            <span class="hljs-attr">"laoslotto"</span>: {
+                <span class="hljs-attr">"laoslotto"</span>: {
+                    <span class="hljs-attr">"top4"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">800</span>
+                    },
+                    <span class="hljs-attr">"row4"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">800</span>
+                    },
+                    <span class="hljs-attr">"top3"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">800</span>
+                    },
+                    <span class="hljs-attr">"row3"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">800</span>
+                    },
+                    <span class="hljs-attr">"top2"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">800</span>
+                    },
+                    <span class="hljs-attr">"bottom2"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">800</span>
+                    },
+                    <span class="hljs-attr">"row2"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">800</span>
+                    },
+                    <span class="hljs-attr">"top1"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">800</span>
+                    },
+                    <span class="hljs-attr">"bottom1"</span>: {
+                        <span class="hljs-attr">"amount"</span>: <span class="hljs-string">800</span>
+                    }
+                },
+                <span class="hljs-attr">"laoslotto_set"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">500</span>
+                }
+            }
+        }
+    }
+}</code></pre>
+<pre class="col-6">
+                                    <p style="margin:0;font-size: 1rem;color: #19A17A" class="text-center"><b>หวยแทงปกติ</b></p>
+                                        <code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>,
+    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"SetPlaceOut"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"enable_hotplaceout"</span>: <span class="hljs-string">false</span>,
+        <span class="hljs-attr">"placeout"</span>: {
+            <span class="hljs-attr">"stock"</span>: {
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">10</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">10</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">10</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">10</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">10</span>
+                },
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">10</span>
+                },
+            }
+        },
+        <span class="hljs-attr">"hotplaceout"</span>: {
+            <span class="hljs-attr">"stock"</span>: {
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">50</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">20</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">20</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">20</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">20</span>
+                },
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-string">20.5</span>
+                }
+            }
+        }
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                        Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>Set Placeout Success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1039</td>
+                                        <td>Not have top4(subtype)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1039</td>
+                                        <td>Create placeout fail</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1039</td>
+                                        <td>can't set placeout lower than current system bet on thailotto at top6(subtype)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentUsername</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentApiKey</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Error Request body is not an object</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid Services</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Services Not Found</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid amount in subtype laoslotto_set</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>hotplaceout invalid type amount in subtype top6(subtype)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>hotplaceout amount should > 0 in subtype top6(subtype)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>hotplaceout invalid subtype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>placeout invalid type amount in subtype top6(subtype)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>placeout amount should > 0 in subtype top6(subtype)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>placeout invalid subtype</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Set Placeout Success"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5"></div>
+
+                <div class="col-12" id="tab47">
+                    <lable><b style="color: #19A17A !important;">4.7 ListPlaceout</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/api/ListPlaceout
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410A">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td>System generate key ID after crate Agent.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                        Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">dataenable</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response dataenable.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">datahotplaceout</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response datahotplaceout.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">datapayout</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response datapayout.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">dataplaceout</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response dataplaceout.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">baaclotto(lotto type)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response lottotype.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">bottom1(subtype)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response subtype.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">enable</td>
+                                        <td class="bRight">String</td>
+                                        <td>Enable true and false.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">amount</td>
+                                        <td class="bRight">float</td>
+                                        <td>Amount of hot placeout.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">discount</td>
+                                        <td class="bRight">float</td>
+                                        <td>Discount of payout</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">payout</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Payout rate normal.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">levellist</td>
+                                        <td class="bRight">Number</td>
+                                        <td>levellist of payout</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Error Request body is not an object</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
+    <span class="hljs-attr">"dataenable"</span>: {
+        <span class="hljs-attr">"baaclotto"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+        },
+        <span class="hljs-attr">"gsblotto"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+        },
+        <span class="hljs-attr">"hanoylotto"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+        },
+        <span class="hljs-attr">"hanoylottospecial"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+        },
+        <span class="hljs-attr">"hanoylottovip"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"false"</span>
+        },
+        <span class="hljs-attr">"laoslotto"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+        },
+        <span class="hljs-attr">"malaylotto"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+        },
+        <span class="hljs-attr">"pingponglotto"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+        },
+        <span class="hljs-attr">"stock"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+        },
+        <span class="hljs-attr">"thailotto"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+        },
+        <span class="hljs-attr">"yeekeelotto"</span>: {
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+        }
+    },
+    <span class="hljs-attr">"datahotplaceout"</span>: {
+        <span class="hljs-attr">"baaclotto"</span>: {
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            }
+        },
+        <span class="hljs-attr">"gsblotto"</span>: {
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">100</span>
+            }
+        },
+        <span class="hljs-attr">"hanoylotto"</span>: {
+            <span class="hljs-attr">"hanoylotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">100</span>
+                }
+            }
+        },
+        <span class="hljs-attr">"hanoylottospecial"</span>: {
+            <span class="hljs-attr">"hanoylottospecial"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylottospecial"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-number">null</span>
+            }
+        },
+        <span class="hljs-attr">"hanoylottovip"</span>: {
+            <span class="hljs-attr">"hanoylottovip"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylottovip_set"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-number">null</span>
+            }
+        },
+        <span class="hljs-attr">"hanoylottovip"</span>: {
+            <span class="hljs-attr">"hanoylottovip"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"row2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">800</span>
+                }
+            },
+            <span class="hljs-attr">"laoslotto_set"</span>: <span class="hljs-number">null</span>
+        },
+        <span class="hljs-attr">"malaylotto"</span>: {
+            <span class="hljs-attr">"malaylotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                }
+            },
+            <span class="hljs-attr">"malaylotto_set"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-number">null</span>
+            }
+        },
+        <span class="hljs-attr">"pingponglotto"</span>: {
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"row2"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"row4"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">500</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top4"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top5"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top6"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5000</span>
+            }
+        },
+        <span class="hljs-attr">"stock"</span>: {
+            <span class="hljs-attr">"malaylotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">50</span>
+                }
+            },
+            <span class="hljs-attr">"malaylotto_set"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-number">null</span>
+            }
+        },
+        <span class="hljs-attr">"thailotto"</span>: {
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"bottom3"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"row2"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"row4"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">500</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top4"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top5"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+            },
+            <span class="hljs-attr">"top6"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">500</span>
+            }
+        },
+        <span class="hljs-attr">"yeekeelotto"</span>: {
+            <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">50</span>
+                }
+            }
+        },
+    },
+    <span class="hljs-attr">"datapayout"</span>: {
+        <span class="hljs-attr">"baaclotto"</span>: {
+            <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+                }
+            }
+        },
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5"></div>
+
+                <div class="col-12" id="tab48">
+                    <lable><b style="color: #19A17A !important;">4.8 ListHotnumberandLimitnumber</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/api/ListHotnumberandLimitnumber
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410A">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td>System generate key ID after crate Agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">services</td>
+                                        <td class="bRight">String</td>
+                                        <td>Fixed value"DeleteLimitnumber"</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">limitnumber</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response limitnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">lottotype(thailotto)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of lotto type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">subtype(top3)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of sub type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">number</td>
+                                        <td class="bRight">String</td>
+                                        <td>This number of add hotnumber.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"superadmincash"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"345afccac1c08a4f8e37fbf1ac4f6e2a63e298062482c3f5192a63f3f8"</span>,
+    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"DeleteLimitnumber"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"limitnumber"</span>: {
+            <span class="hljs-attr">"thailotto"</span>: {
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"number"</span>: <span class="hljs-string">"567"</span>
+                }
+            }
+        }
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                        Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>Delete LimitNumber Success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentUsername</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentApiKey</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid Services</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Services Not Found</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Error Request body is not an object</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid keydata</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lottotype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid subtype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid type number</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Delete LimitNumber Success"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12" id="tab49">
+                    <lable><b style="color: #19A17A !important;">4.9 Detail</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/api/detail
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410A">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td>System generate key ID after crate Agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">services</td>
+                                        <td class="bRight">String</td>
+                                        <td>Fixed value"DeleteLimitnumber"</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">limitnumber</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response limitnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">lottotype(thailotto)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of lotto type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">subtype(top3)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Key of sub type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">number</td>
+                                        <td class="bRight">String</td>
+                                        <td>This number of add hotnumber.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"superadmincash"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"345afccac1c08a4f8e37fbf1ac4f6e2a63e298062482c3f5192a63f3f8"</span>,
+    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"DeleteLimitnumber"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"limitnumber"</span>: {
+            <span class="hljs-attr">"thailotto"</span>: {
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"number"</span>: <span class="hljs-string">"567"</span>
+                }
+            }
+        }
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                        Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>Delete LimitNumber Success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentUsername</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid agentApiKey</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Invalid Services</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Services Not Found</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>Error Request body is not an object</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid keydata</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid lottotype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid subtype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid type number</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Delete LimitNumber Success"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="btn-toolbar mb-12">
                     <div class="col-md-6">
