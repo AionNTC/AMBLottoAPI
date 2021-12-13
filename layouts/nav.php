@@ -121,6 +121,15 @@
                             </ul>
                         </div>
                     </li> -->
+                    <style>
+                            #change-scoll::-webkit-scrollbar {
+                                width: 0.25rem;
+                                height: 0.25rem;
+                            }
+                            #change-scoll::-webkit-scrollbar-thumb {
+                                background: #043E35;
+                            }
+                    </style>
                     <li id="manu4">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
@@ -128,7 +137,7 @@
                                 class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
-                            <ul style="height: 600px;overflow-y:auto;">
+                            <ul id="change-scoll" style="height: 600px;overflow-y:auto;">
                                 <li id="manu41"><a class="waves-effect submenu" href="seamlessapi.php#tabOne">
                                         <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">4.1
                                             Introduction
