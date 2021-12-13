@@ -1,8 +1,8 @@
-<?php include 'layouts/header.php';?>
+<?php include 'layouts/header.php'; ?>
 <div class="wrapper container">
-    <?php include 'layouts/nav.php';?>
+    <?php include 'layouts/nav.php'; ?>
     <main class="" style="padding-left: 15rem; transition: all 0.3s ease-in-out 0s;">
-        <?php include 'layouts/lang.php';?>
+        <?php include 'layouts/lang.php'; ?>
         <div class="body-content">
 
             <style>
@@ -20,8 +20,7 @@
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label
-                            set-lan="html:4.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:4.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             ในส่วนนี้จะแสดงรายละเอียดของการใช้งานระบบ Seamless เพื่อไปใช้ในระบบคู่ธุรกิจภายนอก</label>
                     </div>
                 </div>
@@ -33,8 +32,7 @@
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label
-                            set-lan="html:4.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:4.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             ข้อมูลเบื้องต้นแสดงการทำงานในการเรียกใช้ API ของระบบคู่ธุรกิจ เพื่อให้ระบบสามารถเรียกใช้ API ได้ภายใต้เงื่อนไขได้อย่างถูกต้อง</label>
                     </div>
                     <div class="col-12">
@@ -50,33 +48,27 @@
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label
-                            set-lan="html:0. *">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:0. *">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             *หากคุณมีบัญชีหลัก โปรดสร้างบัญชีตัวแทน API ภายใต้บัญชีหลักของคุณและเข้าสู่ระบบด้วยบัญชีตัวแทน API ที่สร้างขึ้นก่อน แล้วทำตามขั้นตอนการตั้งค่า ดังนี้
-</label>
-                        <label
-                            set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.เข้าสู่ระบบ</label>
+                        </label>
+                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.เข้าสู่ระบบ</label>
                         <div class="col-12">
                             <img src="./API_files/Login001.png" style="width: 30%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
-                        <label
-                            set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             2.คลิกเมนูบัญชีและเลือกเมนูโปรไฟล์</label>
                         <div class="col-12">
                             <img src="./API_files/Account002.png" style="width: 80%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
-                        <label id="tabZero"
-                            set-lan="html:4. Define">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.กำหนดข้อมูล API ต่อไปนี้</label>
+                        <label id="tabZero" set-lan="html:4. Define">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.กำหนดข้อมูล API ต่อไปนี้</label>
                         <div class="col-12">
-                            <label
-                                set-lan="html:4.1 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label set-lan="html:4.1 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 3.1 คุณสามารถเพิ่มที่อยู่ IP ได้โดยกรอกข้อมูลที่ Callback Url</label>
                         </div>
                         <div class="col-12">
-                            <label
-                                set-lan="html:4.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label set-lan="html:4.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 3.2 คุณสามารถคลิกปุ่ม “บันทึก” เพื่อบันทึกข้อมูล</label>
                         </div>
                         <div class="col-12">
@@ -158,10 +150,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="3_4A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -304,8 +293,7 @@
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Response
-                                            Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="3_4B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -328,8 +316,7 @@
                         <lable><b style="color: #19A17A !important;" set-lan="text:** Optional">** Optional for direct/re-direct link.</b></lable>
                     </div>
                     <div class="form-group col-12">
-                        <label
-                            set-lan="html:You can add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:You can add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             คุณสามารถเพิ่มค่าพารามิเตอร์ต่อท้ายในลิงค์ (&lottotype=) เพื่อเปลี่ยนเส้นทางให้ผู้เล่นไปยังหน้าแทง AMB Lotto ประเภทนั้นๆ</label>
                     </div>
                     <div class="col-8">
@@ -346,7 +333,7 @@
                                     <tr>
                                         <th class="bRight txtCenter" style="width: 200px;">Name</th>
                                         <th class="bRight txtCenter" style="width: 210px;">Value of parameter</th>
-                                       
+
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -482,7 +469,7 @@
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">thailotto
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=thailotto</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=thailotto</label></label>
                                 </div>
                             </div>
                             <!-- <label class="txtHead">thailotto
@@ -491,190 +478,190 @@
                         </div>
                         <div class="col-12">
                             <div class="row">
-                            <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=laoslotto</label></label>
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=laoslotto</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylotto
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=hanoylotto</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=hanoylotto</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
-                            <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottovip
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=hanoylottovip</label></label>
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottovip
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=hanoylottovip</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">baaclotto
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=baaclotto</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=baaclotto</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
-                            <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">gsblotto
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=gsblotto</label></label>
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">gsblotto
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=gsblotto</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">pingponglotto
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=pingponglotto</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=pingponglotto</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
-                            <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto_set
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=laoslotto_set</label></label>
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto_set
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=laoslotto_set</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">yeekeelotto
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=yeekeelotto</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=yeekeelotto</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
-                            <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">malaylotto
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=malaylotto</label></label>
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">malaylotto
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=malaylotto</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylotto_set
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=hanoylotto_set</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=hanoylotto_set</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottovip_set
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=hanoylottovip_set</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=hanoylottovip_set</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottospecial_set
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=hanoylottospecial_set</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=hanoylottospecial_set</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">malaylotto_set
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=malaylotto_set</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=malaylotto_set</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottospecial
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=hanoylottospecial</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=hanoylottospecial</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockkorea
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stockkorea</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stockkorea</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockchina
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stockchina</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stockchina</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockdowjones
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stockdowjones</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stockdowjones</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocktaiwan
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stocktaiwan</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stocktaiwan</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockengland
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stockengland</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stockengland</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockindia
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stockindia</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stockindia</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockhangseng
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stockhangseng</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stockhangseng</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockegypt
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stockegypt</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stockegypt</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocknikkei
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stocknikkei</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stocknikkei</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocksingapore
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stocksingapore</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stocksingapore</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockthai
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stockthai</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stockthai</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockgerman
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stockgerman</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stockgerman</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockrussia
-                                    :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead"style="margin-bottom:0px">lotto=stockrussia</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lotto=stockrussia</label></label>
                                 </div>
                             </div>
                         </div>
@@ -686,7 +673,7 @@
                     </div>
                     <div class="form-group col-12">
                         <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        หมายเหตุ : กรุณาใช้รหัสตรงตามตัวอย่าง</label>
+                            หมายเหตุ : กรุณาใช้รหัสตรงตามตัวอย่าง</label>
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -714,12 +701,12 @@
                         </div>
                     </div>
                 </div>
-                 <div class="btn-toolbar mb-3" role="toolbar">
+                <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="divBox" style="font-size: 0.87rem;word-break:break-all;">
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">English
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&amp;lotto=thailotto&<label class="txtHead"style="margin-bottom:0px">lang=en</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&amp;lotto=thailotto&<label class="txtHead" style="margin-bottom:0px">lang=en</label></label>
                                 </div>
                             </div>
                             <!-- <label class="txtHead">English
@@ -729,7 +716,7 @@
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">Thai
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&amp;lotto=laoslotto&<label class="txtHead"style="margin-bottom:0px">lang=th</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&amp;lotto=laoslotto&<label class="txtHead" style="margin-bottom:0px">lang=th</label></label>
                                 </div>
                             </div>
                         </div>
@@ -765,7 +752,7 @@
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">thailotto
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=thailotto&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=thailotto&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                             <!-- <label class="txtHead">Baccarat
@@ -775,189 +762,189 @@
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=laoslotto&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=laoslotto&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylotto
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylotto&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylotto&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottovip
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylottovip&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylottovip&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">baaclotto
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=baaclotto&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=baaclotto&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">gsblotto
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=gsblotto&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=gsblotto&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">pingponglotto
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=pingponglotto&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=pingponglotto&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto_set
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=laoslotto_set&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=laoslotto_set&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">yeekeelotto
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=yeekeelotto&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=yeekeelotto&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">malaylotto
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=malaylotto&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=malaylotto&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylotto_set
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylotto_set&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylotto_set&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottovip_set
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylottovip_set&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylottovip_set&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottospecial_set
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylottospecial_set&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylottospecial_set&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">malaylotto_set
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=malaylotto_set&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=malaylotto_set&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottospecial
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylottospecial&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=hanoylottospecial&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockkorea
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockkorea&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockkorea&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockchina
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockchina&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockchina&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockdowjones
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockdowjones&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockdowjones&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocktaiwan
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stocktaiwan&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stocktaiwan&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockengland
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockengland&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockengland&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockindia
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockindia&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockindia&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockhangseng
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockhangseng&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockhangseng&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockegypt
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockegypt&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockegypt&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocknikkei
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stocknikkei&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stocknikkei&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocksingapore
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stocksingapore&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stocksingapore&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockthai
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockthai&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockthai&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockgerman
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockgerman&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockgerman&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockrussia
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockrussia&url=<label class="txtHead"style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lotto=stockrussia&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
@@ -972,10 +959,8 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12">
-                    <label
-                        set-lan="html:*Please keep">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        *โปรดเก็บข้อมูล ”Call Back Service” <b
-                            style="color: red;">ทั้งหมดไว้เป็นความลับ</b>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label set-lan="html:*Please keep">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        *โปรดเก็บข้อมูล ”Call Back Service” <b style="color: red;">ทั้งหมดไว้เป็นความลับ</b>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </label>
                 </div>
                 <lable><b style="color: #19A17A !important;"></b></lable>
@@ -987,13 +972,12 @@
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                            <label
-                                set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                เมื่อผู้เล่นเข้าสู่หน้าแรกหรือหน้าอื่นๆ ของระบบ AMB Lotto ระบบจะส่งคำขอเพื่อรับยอดเงินคงเหลือของผู้เล่นจริง</label>
+                        <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            เมื่อผู้เล่นเข้าสู่หน้าแรกหรือหน้าอื่นๆ ของระบบ AMB Lotto ระบบจะส่งคำขอเพื่อรับยอดเงินคงเหลือของผู้เล่นจริง</label>
                     </div>
                     <div class="form-group col-12 ex">
-                            <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
-                            </lable>
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1037,10 +1021,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -1055,8 +1036,8 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                            <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Response Body</b>
-                            </lable>
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Response Body</b>
+                        </lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1107,14 +1088,14 @@
                                         <td class="bRight">Number</td>
                                         <td></td>
                                     </tr>
-                                    
+
                                 </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                            <lable><b style="color: #19A17A !important;" set-lan="text:Request Code">Response Code</b>
-                            </lable>
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Code">Response Code</b>
+                        </lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1148,10 +1129,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -1870,8 +1848,7 @@
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label
-                            set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             เมื่อผู้เล่นเข้าสู่หน้าแรกหรือหน้าอื่นๆ ของระบบ AMB Lotto ระบบจะส่งคำขอเพื่อรับยอดเงินคงเหลือของผู้เล่นจริง</label>
                     </div>
                     <div class="form-group col-12 ex">
@@ -1888,7 +1865,7 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
                                         </th>
                                     </tr>
                                 </thead>
@@ -1926,10 +1903,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -1957,7 +1931,7 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -2011,8 +1985,7 @@
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -2034,8 +2007,7 @@
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label
-                            set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             เมื่อผู้เล่นวางเดิมพัน ระบบ AMB Lotto จะส่งคำขอ UserPlaceBet ไปยังระบบของคู่ธุรกิจ คำขอจะหมดเวลาหลังจาก 10 วินาทีและจะส่ง PlaceBetCancel</label>
                     </div>
                     <div class="form-group col-12 ex">
@@ -2052,8 +2024,8 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
-                                        
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -2197,10 +2169,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="352A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -2248,11 +2217,11 @@
                             <table class="table table-borderless table-striped" id="DataTable2">
                                 <thead class="rgba-green-slight">
                                     <tr>
-                                    <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -2329,8 +2298,7 @@
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="352B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -2350,15 +2318,14 @@
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label
-                            set-lan="html:when previous PlaceBet">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:when previous PlaceBet">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             1. ใช้ยกเลิกเมื่อ UserPlaceBet เกิดข้อผิดพลาด หรือ Time Out <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. ใช้ยกเลิกกรณีที่ผู้เล่นต้องการยกเลิก <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 กรณียกเลิกทั้งตั๋ว Status ของตั๋วจะเป็น "Cancel" ซึ่งรายละเอียดในการเดิมพันแต่ละรายการ ทุกรายการของตั๋วนั้นจะมี "betStatus" เป็น "Cancel"<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2 กรณียกเลิกทีละเลข 
-Status ของตั๋วจะเป็นสถานะของตั๋วนั้น  ซึ่งรายละเอียดในการเดิมพันของรายการที่ต้องการยกเลิกจะมี "betStatus" เป็น "Cancel"
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. ใช้ยกเลิกกรณีที่ผู้เล่นต้องการยกเลิก <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 กรณียกเลิกทั้งตั๋ว Status ของตั๋วจะเป็น "Cancel" ซึ่งรายละเอียดในการเดิมพันแต่ละรายการ ทุกรายการของตั๋วนั้นจะมี "betStatus" เป็น "Cancel"<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2 กรณียกเลิกทีละเลข
+                            Status ของตั๋วจะเป็นสถานะของตั๋วนั้น ซึ่งรายละเอียดในการเดิมพันของรายการที่ต้องการยกเลิกจะมี "betStatus" เป็น "Cancel"
 
-</label>
+                        </label>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
@@ -2374,11 +2341,11 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
+                                    <tr>
                                         <td class="bRight">service</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">Fixed value"UserPlaceBetCancel"</td>
@@ -2517,10 +2484,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="353A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -2583,11 +2547,11 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <table class="table table-borderless table-striped" id="DataTable2">
                                 <thead class="rgba-green-slight">
                                     <tr>
-                                    <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -2640,8 +2604,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="353B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -2661,8 +2624,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label
-                            set-lan="html:This interface will">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:This interface will">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             ถ้ามีการออกผลรางวัล ระบบ AMB Lotto จะส่งคำขอ UserPlacePayout เมื่อมีการออกผลรางวัล</label>
                     </div>
                     <div class="form-group col-12 ex">
@@ -2679,7 +2641,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -2842,10 +2804,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="354A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -2920,7 +2879,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -2969,8 +2928,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="354B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -3004,13 +2962,13 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                     <div class="form-group col-9">
                         <div class="table-wrapper">
                             <table class="table table-borderless table-striped" id="DataTable356A">
-                            <thead class="rgba-green-slight">
+                                <thead class="rgba-green-slight">
                                     <tr>
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -3153,10 +3111,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="356A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -3208,7 +3163,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -3252,7 +3207,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">911009</td>
                                         <td>Bad parameters.</td>
                                     </tr>
-                                    
+
                                 </tbody>
                             </table>
                         </div>
@@ -3262,8 +3217,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="356B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -3340,7 +3294,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        <td>Type  reward.
+                                        <td>Type reward.
                                         </td>
                                     </tr>
                                     <tr>
@@ -3386,10 +3340,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="357A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -3478,11 +3429,10 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                        <pre><code id="357B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="357B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>
 }</code></pre>
                                 </div>
@@ -3505,7 +3455,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                     <div class="form-group col-9">
                         <div class="table-wrapper">
                             <table class="table table-borderless table-striped" id="DataTable355B">
-                            <thead class="rgba-green-slight">
+                                <thead class="rgba-green-slight">
                                     <tr>
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
@@ -3548,7 +3498,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        <td>Type  reward.
+                                        <td>Type reward.
                                         </td>
                                     </tr>
                                     <tr>
@@ -3594,10 +3544,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="357A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -3686,11 +3633,10 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                        <pre><code id="357B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="357B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>
 }</code></pre>
                                 </div>
@@ -3714,7 +3660,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <label>Post</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">Url : </label> 
+                            <label class="txtHead">Url : </label>
                             <label>https://test-api.pirate168.com/apiRoute/api/memberBetHistories</label>
                         </div>
                         <div class="col-12">
@@ -3787,10 +3733,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="48A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -4058,7 +4001,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     </tr>
                                     <tr>
                                         <td class="bRight">41002</td>
-                                        <td>invalid input format 'balance', 'page', 'limit',  field.</td>
+                                        <td>invalid input format 'balance', 'page', 'limit', field.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71001</td>
@@ -4118,8 +4061,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -4197,7 +4139,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 Url :
                             </label>
                             <label>
-                            https://test-api.pirate168.com/apiRoute/api/betHistories
+                                https://test-api.pirate168.com/apiRoute/api/betHistories
                             </label>
                         </div>
                         <div class="col-12">
@@ -4265,10 +4207,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="49A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -4566,7 +4505,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     </tr>
                                     <tr>
                                         <td class="bRight">41002</td>
-                                        <td>invalid input format 'balance', 'page', 'limit',  field.</td>
+                                        <td>invalid input format 'balance', 'page', 'limit', field.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71001</td>
@@ -4653,11 +4592,10 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"compseamless"</span>,
@@ -4795,10 +4733,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -4826,7 +4761,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
                                         <th style="width: 40%;" set-lan="html:Description" class="bRight">
-                                        Description</th>
+                                            Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -4925,8 +4860,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -5074,10 +5008,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -5113,7 +5044,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
                                         <th style="width: 40%;" set-lan="html:Description" class="bRight">
-                                        Description</th>
+                                            Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -5212,7 +5143,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
-                                        <td>amount less than balance, should  more than 0.00</td>
+                                        <td>amount less than balance, should more than 0.00</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
@@ -5231,8 +5162,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -5344,10 +5274,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -5383,7 +5310,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
                                         <th style="width: 40%;" set-lan="html:Description" class="bRight">
-                                        Description</th>
+                                            Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -5482,7 +5409,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
-                                        <td>amount less than balance, should  more than 0.00</td>
+                                        <td>amount less than balance, should more than 0.00</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
@@ -5497,8 +5424,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -5605,10 +5531,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -5643,7 +5566,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
                                         <th style="width: 40%;" set-lan="html:Description" class="bRight">
-                                        Description</th>
+                                            Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -5745,8 +5668,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -5853,10 +5775,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -5891,7 +5810,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
                                         <th style="width: 40%;" set-lan="html:Description" class="bRight">
-                                        Description</th>
+                                            Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -5993,8 +5912,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -6101,10 +6019,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -6139,7 +6054,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
                                         <th style="width: 40%;" set-lan="html:Description" class="bRight">
-                                        Description</th>
+                                            Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -6225,8 +6140,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -6305,7 +6219,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">Object</td>
                                         <td>Object response.</td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="bRight">enable_hotplaceout</td>
                                         <td class="bRight">Object</td>
                                         <td>Enable hotplaceout true and faluse.</td>
@@ -6320,7 +6234,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">Object</td>
                                         <td>Object response lottotype.</td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="bRight">laoslotto(lotto type)</td>
                                         <td class="bRight">Object</td>
                                         <td>แทงได้ 2 แบบ(แบบปกติและแบบชุด)</td>
@@ -6348,10 +6262,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-12 d-flex" style="margin-left:0%">
                                     <pre class="col-6">
@@ -6438,7 +6349,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
         }
     }
 }</code></pre>
-<pre class="col-6">
+                                    <pre class="col-6">
                                     <p style="margin:0;font-size: 1rem;color: #19A17A" class="text-center"><b>หวยแทงปกติ</b></p>
                                         <code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
@@ -6510,7 +6421,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
                                         <th style="width: 40%;" set-lan="html:Description" class="bRight">
-                                        Description</th>
+                                            Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -6620,8 +6531,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -6698,10 +6608,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -6726,7 +6633,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
                                         <th style="width: 40%;" set-lan="html:Description" class="bRight">
-                                        Description</th>
+                                            Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -6835,8 +6742,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -7194,6 +7100,898 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 }
             }
         },
+        <span class="hljs-attr">"gsblotto"</span>: { 
+             <span class="hljs-attr">"bottom1"</span>: {
+             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+            },
+             <span class="hljs-attr">"bottom2"</span>: {
+             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+             <span class="hljs-attr">"row3"</span>: {
+             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+            },
+             <span class="hljs-attr">"top1"</span>: {
+             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+            },
+             <span class="hljs-attr">"top2"</span>: {
+             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+             <span class="hljs-attr">"top3"</span>: {
+             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+             <span class="hljs-attr">"payout"</span>: 1000</span>
+            }
+        },
+         <span class="hljs-attr">"hanoylotto"</span>: {
+         <span class="hljs-attr">"bottom1"</span>: {
+         <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+         <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2
+            },
+             <span class="hljs-attr">"bottom2"</span>: {
+             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+             <span class="hljs-attr">"row3"</span>: {
+             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+            },
+             <span class="hljs-attr">"top1"</span>: {
+             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+            },
+             <span class="hljs-attr">"top2"</span>: {
+             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+            }
+        },
+        <span class="hljs-attr">"hanoylotto_set"</span>: {
+        <span class="hljs-attr">"back2"</span>: {
+        <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"front2"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 166.6</span>
+            },
+            <span class="hljs-attr">"row4"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">416.6</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+            },
+            <span class="hljs-attr">"top4"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 10000</span>
+            }
+        },
+        <span class="hljs-attr">"hanoylottospecial"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+            }
+        },
+        <span class="hljs-attr">"hanoylottospecial_set"</span>: {
+        <span class="hljs-attr">"back2"</span>: {
+        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"front2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 166.6</span>
+            },
+            <span class="hljs-attr">"row4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">416.6</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+            },
+           <span class="hljs-attr"> "top4"</span>: {
+           <span class="hljs-attr"> "discount"<span class="hljs-number">0</span>,
+           <span class="hljs-attr"> "payout"</span>: 10000</span>
+            }
+        },
+        <span class="hljs-attr">"hanoylottovip"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 166.6</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 3.2</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 900</span>
+            }
+        },
+        <span class="hljs-attr">"hanoylottovip_set"</span>: {
+        <span class="hljs-attr">"back2"</span>: {
+        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 100</span>
+            },
+            <span class="hljs-attr">"front2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 100</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 166.6</span>
+            },
+            <span class="hljs-attr">"row4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 416.6</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+            },
+            <span class="hljs-attr">"top4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">9000</span>
+            }
+        },
+        <span class="hljs-attr">"laoslotto_thai"</span>: {
+        <span class="hljs-attr">"back2"</span>: {
+        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 100</span>
+            },
+            <span class="hljs-attr">"front2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 100</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 166.6</span>
+            },
+            <span class="hljs-attr">"row4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">416.6</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+            },
+            <span class="hljs-attr">"top4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">10000</span>
+            }
+        },
+        <span class="hljs-attr">"malaylotto"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+            }
+        },
+        <span class="hljs-attr">"malaylotto_set"</span>: {
+        <span class="hljs-attr">"back2"</span>: {
+        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"front2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 100</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+            },
+            <span class="hljs-attr">"row4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 416.6</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+            },
+            <span class="hljs-attr">"top4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 10000</span>
+            }
+        },
+        <span class="hljs-attr">"pingponglotto"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"row2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">16.6</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+            },
+            <span class="hljs-attr">"row4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">416.6</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 3.2</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+            },
+            <span class="hljs-attr">"top4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">5000</span>
+            },
+            <span class="hljs-attr">"top5"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25000</span>
+            },
+            <span class="hljs-attr">"top6"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 50000</span>
+            }
+        },
+        <span class="hljs-attr">"stock"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>,</span>
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+            }
+        },
+        <span class="hljs-attr">"thailotto"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 4.2</span>
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+            },
+            <span class="hljs-attr">"bottom3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
+            },
+            <span class="hljs-attr">"row2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">12</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+            },
+            <span class="hljs-attr">"row4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+            },
+            <span class="hljs-attr">"top4"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">5000</span>
+            },
+            <span class="hljs-attr">"top5"</span>: {
+            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25000</span>
+            },
+            <span class="hljs-attr">"top6"</span>: {
+            <span class="hljs-attr">"discount"</span>: 10</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">50000</span>
+            }
+        },
+        <span class="hljs-attr">"yeekeelotto"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
+        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 90</span>
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 3.2</span>
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
+            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 90</span>
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
+            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+            }
+        }
+    },
+    <span class="hljs-attr">"dataplaceout"</span>: {
+    <span class="hljs-attr">"baaclotto"</span>: {
+    <span class="hljs-attr">"bottom1"</span>: {
+    <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+    <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            }
+        },
+        <span class="hljs-attr">"gsblotto"</span>: {
+            <span class="hljs-attr">"bottom1"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            }
+        },
+        <span class="hljs-attr">"hanoylotto"</span>: {
+        <span class="hljs-attr">"hanoylotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                }
+            },
+            <span class="hljs-attr">"hanoylotto_set"</span>: {
+            <span class="hljs-attr">"lottoset"</span>: {
+            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+                }
+            }
+        },
+        <span class="hljs-attr">"hanoylottospecial"</span>: {
+        <span class="hljs-attr">"hanoylottospecial"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                }
+            },
+            <span class="hljs-attr">"hanoylottospecial_set"</span>: {
+            <span class="hljs-attr">"lottoset"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+                }
+            }
+        },
+        <span class="hljs-attr">"hanoylottovip"</span>: {
+        <span class="hljs-attr">"hanoylottovip"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"levellist"</span>: [
+        <span class="hljs-attr">3.2</span>
+                    ]
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                <span class="hljs-attr">80</span>
+                    ]
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                <span class="hljs-attr">116.6</span>
+                    ]
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                <span class="hljs-attr">2.2</span>
+                    ]
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                <span class="hljs-attr">70</span>
+                    ]
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                <span class="hljs-attr">800</span>
+                    ]
+                }
+            },
+            <span class="hljs-attr">"hanoylottovip_set"</span>: {
+            <span class="hljs-attr">"lottoset"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+                }
+            }
+        },
+        <span class="hljs-attr">"laoslotto"</span>: {
+        <span class="hljs-attr">"laoslotto"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"row2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">200</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                }
+            },
+            <span class="hljs-attr">"laoslotto_set"</span>: {
+            <span class="hljs-attr">"bottom1"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"row2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">200</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                }
+            }
+        },
+        <span class="hljs-attr">"malaylotto"</span>: {
+        <span class="hljs-attr">"malaylotto"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+                <span class="hljs-attr">"levellist"</span>: []
+                }
+            },
+            <span class="hljs-attr">"malaylotto_set"</span>: {
+            <span class="hljs-attr">"lottoset"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+                }
+            }
+        },
+        <span class="hljs-attr">"pingponglotto"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"row2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"row4"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top4"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top5"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top6"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            }
+        },
+        <span class="hljs-attr">"stock"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: []
+            }
+        },
+        <span class="hljs-attr">"thailotto"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
+        <span class="hljs-attr">"levellist"</span>: [
+        <span class="hljs-attr">3.1</span>,
+        <span class="hljs-attr">2</span>
+                ]
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">70</span>,
+            <span class="hljs-attr">50</span>
+                ]
+            },
+            <span class="hljs-attr">"bottom3"</span>: {
+            <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">155</span>,
+            <span class="hljs-attr">145</span>
+                ]
+            },
+            <span class="hljs-attr">"row2"</span>: {
+            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">10</span>,
+            <span class="hljs-attr">8</span>
+                ]
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">80</span>,
+            <span class="hljs-attr">70</span>
+                ]
+            },
+            <span class="hljs-attr">"row4"</span>: {
+            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">155</span>,
+            <span class="hljs-attr">145</span>
+                ]
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">2.1,</span>
+            <span class="hljs-attr">1</span>
+                ]
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,</span>
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">70</span>,</span>
+            <span class="hljs-attr">50</span>
+                ]
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,</span>
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">550</span>,</span>
+            <span class="hljs-attr">450</span>
+                ]
+            },
+            <span class="hljs-attr">"top4"</span>: {
+            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,</span>
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">3500</span>,</span>
+            <span class="hljs-attr">3000</span>
+                ]
+            },
+            <span class="hljs-attr">"top5"</span>: {
+            <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,</span>
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">10000</span>,
+            <span class="hljs-attr">5000</span>
+                ]
+            },
+            <span class="hljs-attr">"top6"</span>: {
+            <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">30000</span>,
+            <span class="hljs-attr">25000</span>,
+            <span class="hljs-attr">20000</span>,
+            <span class="hljs-attr">15000</span>
+                ]
+            }
+        },
+        <span class="hljs-attr">"yeekeelotto"</span>: {
+        <span class="hljs-attr">"bottom1"</span>: {
+        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+        <span class="hljs-attr">"levellist"</span>: [
+        <span class="hljs-attr">3.2</span>
+                ]
+            },
+            <span class="hljs-attr">"bottom2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">80</span>,
+            <span class="hljs-attr">70</span>
+                ]
+            },
+            <span class="hljs-attr">"row3"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">140</span>,
+            <span class="hljs-attr">130</span>
+                ]
+            },
+            <span class="hljs-attr">"top1"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">2.2</span>
+                ]
+            },
+            <span class="hljs-attr">"top2"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">80</span>,
+            <span class="hljs-attr">70</span>
+                ]
+            },
+            <span class="hljs-attr">"top3"</span>: {
+            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
+            <span class="hljs-attr">"levellist"</span>: [
+            <span class="hljs-attr">890</span>,
+            <span class="hljs-attr">880</span>
+                ]
+            }
+        }
+    }
+}
     }
 }</code></pre>
                                 </div>
@@ -7204,7 +8002,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <div class="pb-5"></div>
 
                 <div class="col-12" id="tab48">
-                    <lable><b style="color: #19A17A !important;">4.8 ListHotnumberandLimitnumber</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.8 ListHotnumber and Limitnumber</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -7258,36 +8056,6 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">String</td>
                                         <td>System generate key ID after crate Agent.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">services</td>
-                                        <td class="bRight">String</td>
-                                        <td>Fixed value"DeleteLimitnumber"</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">data</td>
-                                        <td class="bRight">Object</td>
-                                        <td>Object response.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">limitnumber</td>
-                                        <td class="bRight">Object</td>
-                                        <td>Object response limitnumber.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">lottotype(thailotto)</td>
-                                        <td class="bRight">Object</td>
-                                        <td>Key of lotto type.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">subtype(top3)</td>
-                                        <td class="bRight">Object</td>
-                                        <td>Key of sub type.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">number</td>
-                                        <td class="bRight">String</td>
-                                        <td>This number of add hotnumber.</td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -7296,25 +8064,12 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"superadmincash"</span>,
-    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"345afccac1c08a4f8e37fbf1ac4f6e2a63e298062482c3f5192a63f3f8"</span>,
-    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"DeleteLimitnumber"</span>,
-    <span class="hljs-attr">"data"</span>: {
-        <span class="hljs-attr">"limitnumber"</span>: {
-            <span class="hljs-attr">"thailotto"</span>: {
-                <span class="hljs-attr">"top3"</span>: {
-                    <span class="hljs-attr">"number"</span>: <span class="hljs-string">"567"</span>
-                }
-            }
-        }
-    }
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>,
 }</code></pre>
                                 </div>
                             </div>
@@ -7334,7 +8089,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
                                         <th style="width: 40%;" set-lan="html:Description" class="bRight">
-                                        Description</th>
+                                            Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -7345,8 +8100,58 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
-                                        <td class="bRight">String</td>
+                                        <td class="bRight">Object</td>
                                         <td>Information message.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">hotnumber</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">thailotto</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response lottotype.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentid</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Agent Id from partner system.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">amount</td>
+                                        <td class="bRight">float</td>
+                                        <td>Amount of hot number.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">hotnumid</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Hotnumber Id set system.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">number</td>
+                                        <td class="bRight">Number</td>
+                                        <td>This number of add hotnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">subtype</td>
+                                        <td class="bRight">String</td>
+                                        <td>Subtype of lotto</td>
+                                    </tr>
+                                     <tr>
+                                        <td class="bRight">superadmin</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Agent Id from partner system.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">limitnumber</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response limitnumber.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -7369,11 +8174,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>Delete LimitNumber Success</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>Invalid agentUsername</td>
+                                        <td>success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
@@ -7381,35 +8182,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
-                                        <td>Invalid agentApiKey</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>Invalid Services</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>Services Not Found</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
                                         <td>Error Request body is not an object</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>invalid keydata</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>invalid lottotype</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>invalid subtype</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>invalid type number</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -7420,13 +8193,37 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Delete LimitNumber Success"</span>
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"hotnumber":</span> {
+            <span class="hljs-attr">"thailotto":</span> [
+                    {
+                        <span class="hljs-attr">"agentid"</span>: <span class="hljs-number">19</span>,
+                        <span class="hljs-attr">"amount"</span>:<span class="hljs-number">100</span>,
+                        <span class="hljs-attr">"hotnumid"</span>: <span class="hljs-number">787</span>,
+                        <span class="hljs-attr">"number"</span>: <span class="hljs-number">"000000"</span>,
+                        <span class="hljs-attr">"subtype"</span>: <span class="hljs-number">"top6"</span>,
+                        <span class="hljs-attr">"superadmin"</span>: <span class="hljs-number">18</span>
+                    }
+                ]
+            },
+        <span class="hljs-attr">"limitnumber"</span>: {
+                <span class="hljs-attr">"thailotto"</span>: [
+                {
+                    <span class="hljs-attr">"agentid"</span>: <span class="hljs-number">19</span>,
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"hotnumid"</span>: <span class="hljs-number">206</span>,
+                    <span class="hljs-attr">"number"</span>: <span class="hljs-number">"123456"</span>,
+                    <span class="hljs-attr">"subtype"</span>: <span class="hljs-number">"top6"</span>,
+                    <span class="hljs-attr">"superadmin"</span>: <span class="hljs-number">18</span>
+                }
+            ]
+        }
+    }
 }</code></pre>
                                 </div>
                             </div>
@@ -7448,7 +8245,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 Url :
                             </label>
                             <label>
-                                https://test-api.pirate168.com/apiRoute/api/detail
+                                https://test-api.pirate168.com/apiRoute/agent/detail
                             </label>
                         </div>
                         <div class="col-12">
@@ -7488,36 +8285,6 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">String</td>
                                         <td>System generate key ID after crate Agent.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">services</td>
-                                        <td class="bRight">String</td>
-                                        <td>Fixed value"DeleteLimitnumber"</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">data</td>
-                                        <td class="bRight">Object</td>
-                                        <td>Object response.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">limitnumber</td>
-                                        <td class="bRight">Object</td>
-                                        <td>Object response limitnumber.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">lottotype(thailotto)</td>
-                                        <td class="bRight">Object</td>
-                                        <td>Key of lotto type.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">subtype(top3)</td>
-                                        <td class="bRight">Object</td>
-                                        <td>Key of sub type.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">number</td>
-                                        <td class="bRight">String</td>
-                                        <td>This number of add hotnumber.</td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -7526,25 +8293,12 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
-                                            set-lan="text:Example Request Body">Example Request Body</b><i
-                                            class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"superadmincash"</span>,
-    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"345afccac1c08a4f8e37fbf1ac4f6e2a63e298062482c3f5192a63f3f8"</span>,
-    <span class="hljs-attr">"services"</span>: <span class="hljs-string">"DeleteLimitnumber"</span>,
-    <span class="hljs-attr">"data"</span>: {
-        <span class="hljs-attr">"limitnumber"</span>: {
-            <span class="hljs-attr">"thailotto"</span>: {
-                <span class="hljs-attr">"top3"</span>: {
-                    <span class="hljs-attr">"number"</span>: <span class="hljs-string">"567"</span>
-                }
-            }
-        }
-    }
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"exp"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"88d6996236e46debf357ca1fc31b63ca648c8a34ccf9a871c4a8f2ffb6adad"</span>
 }</code></pre>
                                 </div>
                             </div>
@@ -7564,7 +8318,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
                                         <th style="width: 40%;" set-lan="html:Description" class="bRight">
-                                        Description</th>
+                                            Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -7577,6 +8331,46 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
                                         <td>Information message.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rate</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response rate.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">baaclotto(lotto type)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response lottotype.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">bottom1(subtype)</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response subtype.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">discount</td>
+                                        <td class="bRight">float</td>
+                                        <td>Discount of payout</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">max</td>
+                                        <td class="bRight">float</td>
+                                        <td>Max of bet.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">min</td>
+                                        <td class="bRight">float</td>
+                                        <td>Min of bet.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">payout</td>
+                                        <td class="bRight">float</td>
+                                        <td>Payout rate normal.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -7599,47 +8393,11 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>Delete LimitNumber Success</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>Invalid agentUsername</td>
+                                        <td>success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
                                         <td>Invalid ApiKey or UserAgent</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>Invalid agentApiKey</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>Invalid Services</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>Services Not Found</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>Error Request body is not an object</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>invalid keydata</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>invalid lottotype</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>invalid subtype</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">1054</td>
-                                        <td>invalid type number</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -7650,13 +8408,670 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #19A17A !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
-                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Delete LimitNumber Success"</span>
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"rate"</span>: {
+            <span class="hljs-attr">"baaclotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                }
+            },
+            <span class="hljs-attr">"gsblotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                    },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylotto_set"</span>: {
+                <span class="hljs-attr">"back2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">15</span>
+                    },
+                <span class="hljs-attr">"front2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">15</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25</span>
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">40</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">350</span>
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">600</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylottospecial"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                    },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylottospecial_set"</span>: {
+                <span class="hljs-attr">"back2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">15</span>
+                    },
+                <span class="hljs-attr">"front2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">15</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25</span>
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">40</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">350</span>
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">600</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylottovip"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                    },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylottovip_set"</span>: {
+                <span class="hljs-attr">"back2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">15</span>
+                    },
+                <span class="hljs-attr">"front2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">15</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25</span>
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">40</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">350</span>
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">600</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+                }
+            },
+            <span class="hljs-attr">"laoslotto_thai"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                    },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">12</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">7000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">220</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4500</span>
+                }
+            },
+            <span class="hljs-attr">"malaylotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                    },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
+            },
+            <span class="hljs-attr">"malaylotto"</span>: {
+                <span class="hljs-attr">"back2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">15</span>
+                    },
+                <span class="hljs-attr">"front2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">15</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25</span>
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">40</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">350</span>
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+                }
+            },
+            <span class="hljs-attr">"pingponglotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                    },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">12</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">7000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">5000</span>
+                },
+                <span class="hljs-attr">"top5"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">2000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25000</span>
+                },
+                <span class="hljs-attr">"top6"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">1000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">50000</span>
+                }
+            },
+            <span class="hljs-attr">"stock"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                    },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
+            },
+            <span class="hljs-attr">"thailotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                    },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"bottom3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
+                },
+                <span class="hljs-attr">"row22"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">12</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">7000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">5000</span>
+                },
+                <span class="hljs-attr">"top5"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">2000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25000</span>
+                },
+                <span class="hljs-attr">"top6"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">1000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">50000</span>
+                }
+            },
+            <span class="hljs-attr">"yeekeelotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                    },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
+            }
+        }
+    },
+    <span class="hljs-attr">"mgs"</span>: <span class="hljs-number">"success"</span>
 }</code></pre>
                                 </div>
                             </div>
@@ -7676,20 +9091,20 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </button>
                     </div>
                 </div>
-            <!-- </div> -->
+                <!-- </div> -->
 
-        </div>
+            </div>
     </main>
 </div>
 
-<?php include 'layouts/footer.php';?>
+<?php include 'layouts/footer.php'; ?>
 
 <script type="text/javascript">
-    $(document).ready(function () {
+    $(document).ready(function() {
         $("#manu4 , #manu4 > a").addClass("active");
         $("#manu4 > div").css("display", "block");
 
-        $(this).on("click", ".koh-faq-question", function () {
+        $(this).on("click", ".koh-faq-question", function() {
             $(this).parent().find(".koh-faq-answer").slideToggle();
             $(this).find(".fa").toggleClass('active');
         });

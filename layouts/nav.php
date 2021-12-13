@@ -238,7 +238,7 @@
                                 </li>
                                 <li id="manu48"><a class="waves-effect submenu" href="seamlessapi.php#tab48">
                                         <span class="sv-normal" set-lan="text:3.6.1">4.8
-                                        ListHotnumberandLimitnumber</span></a>
+                                        ListHotnumber and Limitnumber</span></a>
                                 </li>
                                 <li id="manu49"><a class="waves-effect submenu" href="seamlessapi.php#tab49">
                                         <span class="sv-normal" set-lan="text:3.6.1">4.9
