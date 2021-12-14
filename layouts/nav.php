@@ -137,7 +137,7 @@
                                 class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
-                            <ul id="change-scoll" style="height: 600px;overflow-y:auto;">
+                            <ul id="change-scoll" style="height: 350px;overflow-y:auto;">
                                 <li id="manu41"><a class="waves-effect submenu" href="seamlessapi.php#tabOne">
                                         <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">4.1
                                             Introduction
