@@ -152,7 +152,7 @@
                                             Setting</span></a>
                                 </li>
                                 <li id="manu44"><a class="waves-effect submenu" href="seamlessapi.php#tabFour">
-                                        <span class="sv-normal" set-lan="text:3.4 login request">4.4 login
+                                        <span class="sv-normal" set-lan="text:3.4 login request">4.4 Login
                                             request</span></a>
                                 </li>
                                 <li id="manu45"><a class="waves-effect submenu" href="seamlessapi.php#tabFive">
@@ -194,11 +194,11 @@
                                 </li>
                                 <li id="manu461"><a class="waves-effect submenu" href="seamlessapi.php#tabFourteen">
                                         <span class="sv-normal" set-lan="text:3.6.1">4.6.1
-                                            memberBetHistories</span></a>
+                                            MemberBetHistories</span></a>
                                 </li>
                                 <li id="manu462"><a class="waves-effect submenu" href="seamlessapi.php#tabTwelve">
                                         <span class="sv-normal" set-lan="text:3.6.2">4.6.2
-                                            betHistories</span></a>
+                                            BetHistories</span></a>
                                 </li>
                                 <li id="manu463"><a class="waves-effect submenu" href="seamlessapi.php#tabThirteen">
                                         <span class="sv-normal" set-lan="text:3.6.3">4.6.3
@@ -270,35 +270,35 @@
                                             Setting</span></a>
                                 </li>
                                 <li id="manu54"><a class="waves-effect submenu" href="transferwallet.php#tab4">
-                                        <span class="sv-normal" set-lan="text:4.4 login request">5.4 login
+                                        <span class="sv-normal" set-lan="text:4.4 login request">5.4 Login
                                             request</span></a>
                                 </li>
                                 <li id="manu55"><a class="waves-effect submenu" href="transferwallet.php#tab5">
                                         <span class="sv-normal" set-lan="text:4.5 getUserBalance">5.5
-                                            getUserBalance</span></a>
+                                            GetUserBalance</span></a>
                                 </li>
                                 <li id="manu56"><a class="waves-effect submenu" href="transferwallet.php#tab6">
-                                        <span class="sv-normal" set-lan="html:4.6">5.6 deposit</span></a>
+                                        <span class="sv-normal" set-lan="html:4.6">5.6 Deposit</span></a>
                                 </li>
                                 <li id="manu57"><a class="waves-effect submenu" href="transferwallet.php#tab7">
-                                        <span class="sv-normal" set-lan="html:4.7">5.7 withdrawal</span></a>
+                                        <span class="sv-normal" set-lan="html:4.7">5.7 Withdrawal</span></a>
                                 </li>
                                 <li id="manu58"><a class="waves-effect submenu" href="transferwallet.php#tab8">
                                         <span class="sv-normal" set-lan="html:4.8">5.8
-                                            memberBetHistories</span></a>
+                                            MemberBetHistories</span></a>
                                 </li>
                                 <li id="manu59"><a class="waves-effect submenu" href="transferwallet.php#tab9">
                                         <span class="sv-normal" set-lan="html:4.9">5.9
-                                            betHistories</span></a>
+                                            BetHistories</span></a>
                                 </li>
                          
                                 <li id="manu510"><a class="waves-effect submenu" href="transferwallet.php#tab10">
                                         <span class="sv-normal" set-lan="html:4.10">5.10
-                                            depositWithdrawHistory</span></a>
+                                            DepositWithdrawHistory</span></a>
                                 </li>
                                 <li id="manu511"><a class="waves-effect submenu" href="transferwallet.php#tab11">
                                         <span class="sv-normal" set-lan="html:4.11">5.11
-                                            depositWithdrawHistoryByTransId</span></a>
+                                            DepositWithdrawHistoryByTransId</span></a>
                                 </li>
                                 <li id="manu512"><a class="waves-effect submenu" href="transferwallet.php#tab12">
                                         <span class="sv-normal" set-lan="html:4.12">5.12
