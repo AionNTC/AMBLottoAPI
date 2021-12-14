@@ -5897,6 +5897,10 @@
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
+                                        <td>invalid lenght at top3(subtype)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
                                         <td>invalid lenght at lottoset (หวยชุดทุกประเภท)</td>
                                     </tr>
                                     <tr>
@@ -6126,6 +6130,22 @@
                                     <tr>
                                         <td class="bRight">1054</td>
                                         <td>invalid subtype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>invalid limitnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>yeekeelotto doesn't have limitnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>pingponglotto doesn't have limitnumber.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1054</td>
+                                        <td>stockkorea doesn't have limitnumber.(หวยหุ้นทุกประเภท)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
@@ -8100,7 +8120,7 @@
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
-                                        <td class="bRight">Object</td>
+                                        <td class="bRight">String</td>
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
@@ -8230,6 +8250,8 @@
                         </div>
                     </div>
                 </div>
+                <div class="pb-5"></div>
+
                 <div class="col-12" id="tab49">
                     <lable><b style="color: #19A17A !important;">4.9 Detail</b></lable>
                 </div>
@@ -9072,6 +9094,214 @@
         }
     },
     <span class="hljs-attr">"mgs"</span>: <span class="hljs-number">"success"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5"></div>
+
+                <div class="col-12" id="tab491">
+                    <lable><b style="color: #19A17A !important;">4.8 Rejectbet</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/api/detail
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410A">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td>System generate key ID after crate Agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Player username from partner system.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betId</td>
+                                        <td class="bRight">String</td>
+                                        <td>Identity of bet data.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">ticketId</td>
+                                        <td class="bRight">Number</td>
+                                        <td>User bet group record from one submit.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>,
+    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"pirate0001"</span>,
+    <span class="hljs-attr">"betId"</span>: <span class="hljs-string">""</span>,
+    <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"1"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                            Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">success</td>
+                                        <td class="bRight">String</td>
+                                        <td>Result status true or false.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable410C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2031</td>
+                                        <td>Invalid member</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2033</td>
+                                        <td>lost agent agentUsername</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2033</td>
+                                        <td>invalid data fomat</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2033</td>
+                                        <td>lost agent agentUsername</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2041</td>
+                                        <td>Invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2060</td>
+                                        <td>create log credit member error</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2060</td>
+                                        <td>can't reject this ticket because this ticket is calculate and status is reject</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2060</td>
+                                        <td>draw dose not exist</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2060</td>
+                                        <td>can't reject after bet of after draw close</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>,
+    <span class="hljs-attr">"success"</span>: <span class="hljs-number">true</span>
 }</code></pre>
                                 </div>
                             </div>

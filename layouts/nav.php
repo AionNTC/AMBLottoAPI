@@ -209,27 +209,27 @@
                                         </span></a>
                                 </li>
                                 <li id="manu4641"><a class="waves-effect submenu" href="seamlessapi.php#tab4641">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.1
+                                        <span class="sv-normal" set-lan="text:3.6.1">&nbsp;&nbsp;4.6.4.1
                                         AddHotnumber</span></a>
                                 </li>
                                 <li id="manu4642"><a class="waves-effect submenu" href="seamlessapi.php#tab4642">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.2
+                                        <span class="sv-normal" set-lan="text:3.6.1">&nbsp;&nbsp;4.6.4.2
                                         EditHotnumber</span></a>
                                 </li>
                                 <li id="manu4643"><a class="waves-effect submenu" href="seamlessapi.php#tab4643">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.3
+                                        <span class="sv-normal" set-lan="text:3.6.1">&nbsp;&nbsp;4.6.4.3
                                         DeleteHotnumber</span></a>
                                 </li>
                                 <li id="manu4644"><a class="waves-effect submenu" href="seamlessapi.php#tab4644">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.4
+                                        <span class="sv-normal" set-lan="text:3.6.1">&nbsp;&nbsp;4.6.4.4
                                         AddLimitnumber</span></a>
                                 </li>
                                 <li id="manu4645"><a class="waves-effect submenu" href="seamlessapi.php#tab4645">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.5
+                                        <span class="sv-normal" set-lan="text:3.6.1">&nbsp;&nbsp;4.6.4.5
                                         DeleteLimitnumber</span></a>
                                 </li>
                                 <li id="manu4646"><a class="waves-effect submenu" href="seamlessapi.php#tab4646">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.4.6
+                                        <span class="sv-normal" set-lan="text:3.6.1">&nbsp;&nbsp;4.6.4.6
                                         SetPlaceout</span></a>
                                 </li>
                                 <li id="manu47"><a class="waves-effect submenu" href="seamlessapi.php#tab47">
@@ -243,6 +243,10 @@
                                 <li id="manu49"><a class="waves-effect submenu" href="seamlessapi.php#tab49">
                                         <span class="sv-normal" set-lan="text:3.6.1">4.9
                                         Detail</span></a>
+                                </li>
+                                <li id="manu491"><a class="waves-effect submenu" href="seamlessapi.php#tab491">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.9.1
+                                        Rejectbet</span></a>
                                 </li>
                             </ul>
                         </div>
