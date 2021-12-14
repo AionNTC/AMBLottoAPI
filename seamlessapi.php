@@ -9103,7 +9103,7 @@
                 <div class="pb-5"></div>
 
                 <div class="col-12" id="tab491">
-                    <lable><b style="color: #19A17A !important;">4.8 Rejectbet</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.9.1 Rejectbet</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
