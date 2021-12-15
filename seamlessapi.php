@@ -5765,7 +5765,7 @@
                                     <tr>
                                         <td class="bRight">number</td>
                                         <td class="bRight">String</td>
-                                        <td>This number of add hotnumber.</td>
+                                        <td>This number of add limitnumber.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -5885,15 +5885,15 @@
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
-                                        <td>yeekeelotto doesn't have hotnumber.</td>
+                                        <td>yeekeelotto doesn't have limitnumber.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
-                                        <td>pingponglotto doesn't have hotnumber.</td>
+                                        <td>pingponglotto doesn't have limitnumber.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
-                                        <td>stockkorea doesn't have hotnumber. (หวยหุ้นทุกประเภท)</td>
+                                        <td>stockkorea doesn't have limitnumber.(หวยหุ้นทุกประเภท)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">1054</td>
@@ -6013,7 +6013,7 @@
                                     <tr>
                                         <td class="bRight">number</td>
                                         <td class="bRight">String</td>
-                                        <td>This number of add hotnumber.</td>
+                                        <td>This number of delete limitnumber.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -8125,7 +8125,7 @@
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
-                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Object</td>
                                         <td>Object response.</td>
                                     </tr>
                                     <tr>
@@ -8156,7 +8156,7 @@
                                     <tr>
                                         <td class="bRight">number</td>
                                         <td class="bRight">Number</td>
-                                        <td>This number of add hotnumber.</td>
+                                        <td>This number of add hotnumber/limitnumber.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">subtype</td>
