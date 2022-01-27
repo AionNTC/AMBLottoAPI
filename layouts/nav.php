@@ -245,8 +245,8 @@
                                         Detail</span></a>
                                 </li>
                                 <li id="manu491"><a class="waves-effect submenu" href="seamlessapi.php#tab491">
-                                        <span class="sv-normal" set-lan="text:3.6.1">&nbsp;&nbsp;4.6.7.1
-                                        Rejectbet</span></a>
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.8
+                                        Reject By Company</span></a>
                                 </li>
                             </ul>
                         </div>
