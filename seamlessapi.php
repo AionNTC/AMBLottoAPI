@@ -6566,7 +6566,7 @@
                 <div class="pb-5"></div>
 
                 <div class="col-12" id="tab47">
-                    <lable><b style="color: #19A17A !important;">4.7 ListPlaceout</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.6.5 ListPlaceout</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -8022,7 +8022,7 @@
                 <div class="pb-5"></div>
 
                 <div class="col-12" id="tab48">
-                    <lable><b style="color: #19A17A !important;">4.8 ListHotnumber and Limitnumber</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.6.6 ListHotnumber and Limitnumber</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -8253,7 +8253,7 @@
                 <div class="pb-5"></div>
 
                 <div class="col-12" id="tab49">
-                    <lable><b style="color: #19A17A !important;">4.9 Detail</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.6.7 Detail</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -9103,7 +9103,7 @@
                 <div class="pb-5"></div>
 
                 <div class="col-12" id="tab491">
-                    <lable><b style="color: #19A17A !important;">4.9.1 Rejectbet</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.6.7.1 Rejectbet</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">

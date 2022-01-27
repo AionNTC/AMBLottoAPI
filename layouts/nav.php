@@ -233,19 +233,19 @@
                                         SetPlaceout</span></a>
                                 </li>
                                 <li id="manu47"><a class="waves-effect submenu" href="seamlessapi.php#tab47">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.7
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.5
                                         ListPlaceout</span></a>
                                 </li>
                                 <li id="manu48"><a class="waves-effect submenu" href="seamlessapi.php#tab48">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.8
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.6
                                         ListHotnumber and Limitnumber</span></a>
                                 </li>
                                 <li id="manu49"><a class="waves-effect submenu" href="seamlessapi.php#tab49">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.9
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.7
                                         Detail</span></a>
                                 </li>
                                 <li id="manu491"><a class="waves-effect submenu" href="seamlessapi.php#tab491">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.9.1
+                                        <span class="sv-normal" set-lan="text:3.6.1">&nbsp;&nbsp;4.6.7.1
                                         Rejectbet</span></a>
                                 </li>
                             </ul>
