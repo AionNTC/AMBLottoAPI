@@ -303,8 +303,8 @@
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"member1@compseamless"</span>,
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
         <span class="hljs-attr">"tkUuid"</span>: <span class="hljs-string">"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg"</span>,
-        <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&header=off""</span>,
-        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&header=on"</span>
+        <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://test.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&header=off"</span>,
+        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://test.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&header=on"</span>
     },
     <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"Success"</span>
 }</code></pre>
@@ -3706,9 +3706,9 @@
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">startDate</td>
-                                        <td class="bRight">Date</td>
-                                        <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
+                                        <td class="bRight">ticketId</td>
+                                        <td class="bRight">Number</td>
+                                        <td>If you want to showing some ticket. Please send your ticket id. If you want to showing all the ticket don't send ticket id.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">endDate</td>
@@ -3740,6 +3740,7 @@
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"compseamless"</span>,
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"e5ecb1f7d639dff2e3bcc05948726a8e7cafa0a75a07117b9562c4b7bc67c665a409cec17f9dfa02"</span>,
     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
+    <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">91565</span>,
     <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-10 15:04:05"</span>,
     <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-20 15:04:05"</span>,
     <span class="hljs-attr">"page"</span>: <span class="hljs-number">1</span>,
@@ -3860,7 +3861,7 @@
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Success (Payment สำเร็จ), Pending (รอผล), Cancel(ยกเลิก).</td>
+                                        <td class="bRight">False(ไม่ถูกรางวัล), True(ถูกรางวัล), Pending (รอผล), Cancel(ยกเลิก).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
@@ -3926,6 +3927,16 @@
                                         <td class="bRight">rateLevelAmount</td>
                                         <td class="bRight">float</td>
                                         <td class="bRight">Amount of rate follow by rateLevel.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">apiPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of api(amblotto).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalDocs</td>
@@ -4099,7 +4110,9 @@
                             <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
                             <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-literal">0</span>,
                             <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0</span>,
-                            <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-literal">0</span>
+                            <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-literal">0</span>,
+                            <span class="hljs-attr">"apiPt"</span>: <span class="hljs-number">0</span>,
+                            <span class="hljs-attr">"agentPt"</span>: <span class="hljs-literal">0</span>
                         }
                     ]
                 }
@@ -4190,6 +4203,11 @@
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">ticketId</td>
+                                        <td class="bRight">Number</td>
+                                        <td>If you want to showing some ticket. Please send your ticket id. If you want to showing all the ticket don't send ticket id.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">page</td>
                                         <td class="bRight">Number</td>
                                         <td>Current page number.</td>
@@ -4215,6 +4233,7 @@
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"e5ecb1f7d639dff2e3bcc05948726a8e7cafa0a75a07117b9562c4b7bc67c665a409cec17f9dfa02"</span>,
     <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-10 15:04:05"</span>,
     <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-20 15:04:05"</span>,
+    <span class="hljs-attr">"ticketId"</span>: <span class="hljs-number">91565</span>,
     <span class="hljs-attr">"page"</span>: <span class="hljs-number">1</span>,
     <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1</span>
 }</code></pre>
@@ -4364,7 +4383,7 @@
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Success (Payment สำเร็จ), Pending (รอผล), Cancel(ยกเลิก).</td>
+                                        <td class="bRight">False(ไม่ถูกรางวัล), True(ถูกรางวัล), Pending (รอผล), Cancel(ยกเลิก).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
@@ -4430,6 +4449,16 @@
                                         <td class="bRight">rateLevelAmount</td>
                                         <td class="bRight">float</td>
                                         <td class="bRight">Amount of rate follow by rateLevel.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">apiPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Position tracking (%) of api(amblotto).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalDocs</td>
@@ -4630,7 +4659,9 @@
                             <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
                             <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-literal">0</span>,
                             <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0</span>,
-                            <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-literal">0</span>
+                            <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-literal">0</span>,
+                            <span class="hljs-attr">"apiPt"</span>: <span class="hljs-number">0</span>,
+                            <span class="hljs-attr">"agentPt"</span>: <span class="hljs-literal">0</span>
                         }
                     ]
                 }
@@ -9117,7 +9148,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://test-api.pirate168.com/apiRoute/api/detail
+                                https://test-api.pirate168.com/apiRoute/agent/rejectbet
                             </label>
                         </div>
                         <div class="col-12">
