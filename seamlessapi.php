@@ -1069,9 +1069,14 @@
                                         <td>Username from partner system.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">cut_of_time</td>
+                                        <td class="bRight">String</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">phone</td>
                                         <td class="bRight">Number</td>
-                                        <td></td>
+                                        <td>Cut of time bet.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">email</td>
@@ -1114,6 +1119,14 @@
                                         <td class="bRight">Success</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">61003</td>
+                                        <td class="bRight">request error  invalid time fomat</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">61003</td>
+                                        <td class="bRight">request error  maximum value parrent is  (15.25) on thailotto lotto</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">911008</td>
                                         <td class="bRight">Player not found.</td>
                                     </tr>
@@ -1139,6 +1152,23 @@
         <span class="hljs-attr">"phone"</span>: <span class="hljs-string">"081111111111"</span>,
         <span class="hljs-attr">"email"</span>: <span class="hljs-string">"google1@gmail.com"</span>,
         <span class="hljs-attr">"line"</span>: <span class="hljs-string">"line1"</span>,
+        <span class="hljs-attr">"cut_of_time"</span>: {   
+            <span class="hljs-attr">"thailotto"</span>: {
+                <span class="hljs-attr">"thailotto"</span>: <span class="hljs-string">"12.00"</span>,
+                <span class="hljs-attr">"baaclotto"</span>: <span class="hljs-string">"08.50"</span>,
+                <span class="hljs-attr">"laoslotto_set"</span>: <span class="hljs-string">"19.50"</span>,
+                <span class="hljs-attr">"laoslotto"</span>: <span class="hljs-string">"19.50"</span>,
+                <span class="hljs-attr">"hanoylotto"</span>: <span class="hljs-string">"17.50"</span>,
+                <span class="hljs-attr">"hanoylottovip"</span>: <span class="hljs-string">"18.50"</span>,
+                <span class="hljs-attr">"gsblotto"</span>: <span class="hljs-string">"12.00"</span>,
+                <span class="hljs-attr">"hanoylottospecial"</span>: <span class="hljs-string">"16.30"</span>,
+                <span class="hljs-attr">"malaylotto"</span>: <span class="hljs-string">"17.50"</span>,
+                <span class="hljs-attr">"hanoylotto_set"</span>: <span class="hljs-string">"17.50"</span>,
+                <span class="hljs-attr">"hanoylottovip_set"</span>: <span class="hljs-string">"18.50"</span>,
+                <span class="hljs-attr">"hanoylottospecial_set"</span>: <span class="hljs-string">"16.30"</span>,
+                <span class="hljs-attr">"malaylotto_set"</span>: <span class="hljs-string">"17.50"</span>
+            }
+        },
         <span class="hljs-attr">"rate"</span>: {   
             <span class="hljs-attr">"baaclotto"</span>: {
                 <span class="hljs-attr">"bottom1"</span>: {
@@ -3096,7 +3126,7 @@
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Success (Payment สำเร็จ), Pending (รอผล), Cancel(ยกเลิก).</td>
+                                        <td class="bRight">False(ไม่ถูกรางวัล), True(ถูกรางวัล), Pending (รอผล), Cancel(ยกเลิก).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">createDate</td>
