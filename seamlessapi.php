@@ -1071,12 +1071,12 @@
                                     <tr>
                                         <td class="bRight">cut_of_time</td>
                                         <td class="bRight">String</td>
-                                        <td></td>
+                                        <td>Cut of time bet.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">phone</td>
                                         <td class="bRight">Number</td>
-                                        <td>Cut of time bet.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">email</td>
