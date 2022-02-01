@@ -4798,7 +4798,7 @@
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
-    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"stockrussia"</span>,
+    <span class="hljs-attr">"lottotype"</span>: <span class="hljs-string">"stockrussia"</span>,
     <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-20 15:04:05"</span>,
     <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-20 15:04:05"</span>
 }</code></pre>
