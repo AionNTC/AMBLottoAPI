@@ -4125,10 +4125,10 @@
                     <span class="hljs-attr">"type"</span>: <span class="hljs-number">"hanoylottospecial"</span>,
                     <span class="hljs-attr">"round"</span>: <span class="hljs-literal">1</span>,
                     <span class="hljs-attr">"goverment"</span>: <span class="hljs-literal">false</span>,
-                    <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-literal">1</span>,
+                    <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-literal">100</span>,
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-literal">-1</span>,
+                    <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-literal">-100</span>,
                     <span class="hljs-attr">"status"</span>: <span class="hljs-literal">"False"</span>,
                     <span class="hljs-attr">"txtList"</span>: [
                         {
@@ -4137,8 +4137,8 @@
                             <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3"</span>,
                             <span class="hljs-attr">"betNumber"</span>: <span class="hljs-literal">"123"</span>,
                             <span class="hljs-attr">"betStatus"</span>: <span class="hljs-literal">"False"</span>,
-                            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">1</span>,
-                            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">1</span>,
+                            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">100</span>,
+                            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">100</span>,
                             <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-literal">0</span>,
                             <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
                             <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-literal">0</span>,
@@ -4710,7 +4710,7 @@
                     <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-literal">1</span>,
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-literal">-100</span>,
+                    <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-literal">-1</span>,
                     <span class="hljs-attr">"status"</span>: <span class="hljs-literal">"False"</span>,
                     <span class="hljs-attr">"txtList"</span>: [
                         {
@@ -4719,8 +4719,8 @@
                             <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3"</span>,
                             <span class="hljs-attr">"betNumber"</span>: <span class="hljs-literal">"123"</span>,
                             <span class="hljs-attr">"betStatus"</span>: <span class="hljs-literal">"False"</span>,
-                            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">100</span>,
-                            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">100</span>,
+                            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">1</span>,
+                            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">1</span>,
                             <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-literal">0</span>,
                             <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
                             <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-literal">0</span>,
