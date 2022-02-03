@@ -3452,7 +3452,7 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
-                                        <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"company"</span>,
         <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-10 15:04:05"</span>,
