@@ -3969,7 +3969,7 @@
                                     <tr>
                                         <td class="bRight">drawResult</td>
                                         <td class="bRight">Object</td>
-                                        <td class="bRight">Object respone ber type(top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1).</td>
+                                        <td class="bRight">Object respone bet type(top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalDocs</td>
@@ -4524,7 +4524,7 @@
                                     <tr>
                                         <td class="bRight">drawResult</td>
                                         <td class="bRight">Object</td>
-                                        <td class="bRight">Object respone ber type(top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1).</td>
+                                        <td class="bRight">Object respone bet type(top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalDocs</td>
