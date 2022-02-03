@@ -2482,6 +2482,11 @@
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">ticketId</td>
+                                        <td class="bRight">Number</td>
+                                        <td>If you want to showing some ticket. Please send your ticket id. If you want to showing all the ticket don't send ticket id.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">startDate</td>
                                         <td class="bRight">Date</td>
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
@@ -2513,9 +2518,10 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="48A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
-    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
-    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"company",</span>
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"e5ecb1f7d639dff2e3bcc05948726a8e7cafa0a75a07117b9562c4b7bc67c665a409cec17f9dfa02",</span>
+    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1",</span>
+    <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">91565</span>,
     <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05",</span>
     <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05",</span>
     <span class="hljs-attr">"page"</span>: <span class="hljs-number">1,</span>
@@ -2602,7 +2608,6 @@
                                     <tr>
                                         <td class="bRight">datetime</td>
                                         <td class="bRight">String</td>
-
                                         <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
                                     <tr>
@@ -2735,6 +2740,21 @@
                                         <td class="bRight">rateLevelAmount</td>
                                         <td class="bRight">float</td>
                                         <td>Amount of rate follow by rateLevel.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Position tracking (%) of agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">apiPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Position tracking (%) of api(amblotto).</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">drawResult</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object respone bet type(top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalDocs</td>
@@ -2879,7 +2899,7 @@
                                     <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span> {
-        <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-number">"agentapi",</span>
+        <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-number">"company",</span>
         <span class="hljs-attr">"startDate"</span>: <span class="hljs-number">"2021-07-14 15:04:05",</span>
         <span class="hljs-attr">"endDate"</span>: <span class="hljs-number">"2021-07-20 15:04:05",</span>
         <span class="hljs-attr">"result"</span>: {
@@ -2887,33 +2907,63 @@
                     {
                     <span class="hljs-attr">"no"</span>: <span class="hljs-number">1,</span>
                     <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-number">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
-                    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"testuserapi001@agentapi",</span>
+                    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"member1@company",</span>
                     <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-15 18:44:36",</span>
-                    <span class="hljs-attr">"ticketId"</span>:<span class="hljs-number"> 6609,</span>
-                    <span class="hljs-attr">"type"</span>: <span class="hljs-number">"thailotto",</span>
+                    <span class="hljs-attr">"ticketId"</span>:<span class="hljs-number">6546,</span>
+                    <span class="hljs-attr">"type"</span>: <span class="hljs-number">"hanoylottospecial",</span>
                     <span class="hljs-attr">"round"</span>:<span class="hljs-number"> 1,</span>
                     <span class="hljs-attr">"goverment"</span>: <span class="hljs-number">false,</span>
-                    <span class="hljs-attr">"totalBetAmt"</span>:<span class="hljs-number"> 50,</span>
+                    <span class="hljs-attr">"totalBetAmt"</span>:<span class="hljs-number">100,</span>
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0,</span>
                     <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0,</span>
-                    <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-50,</span>
-                    <span class="hljs-attr">"Status"</span>: <span class="hljs-number">"pending",</span>
+                    <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-100,</span>
+                    <span class="hljs-attr">"Status"</span>: <span class="hljs-number">"False",</span>
                     <span class="hljs-attr">"txtList"</span>: [
                             {
                             <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjYwOS0x",</span>
                             <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1",</span>
                             <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3",</span>
-                            <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"222",</span>
-                            <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"pending",</span>
-                            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">50,</span>
-                            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">50,</span>
+                            <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"123",</span>
+                            <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"False",</span>
+                            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">100,</span>
+                            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">100,</span>
                             <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0,</span>
                             <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900,</span>
                             <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0,</span>
                             <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0,</span>
-                            <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>
+                            <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>,
+                            <span class="hljs-attr">"apiPt"</span>: <span class="hljs-number">0</span>,
+                            <span class="hljs-attr">"agentPt"</span>: <span class="hljs-number">0</span>
                             }
                         ]
+                    },
+                    <span class="hljs-attr">"drawResult"</span>: {
+                        <span class="hljs-attr">"bottom1"</span>: [
+                            <span class="hljs-literal">"5"</span>,
+                            <span class="hljs-literal">"4"</span>
+                        ],
+                        <span class="hljs-attr">"bottom2"</span>: [
+                            <span class="hljs-literal">"54"</span>
+                        ],
+                        <span class="hljs-attr">"row3"</span>: [
+                            <span class="hljs-literal">"034"</span>,
+                            <span class="hljs-literal">"043"</span>,
+                            <span class="hljs-literal">"304"</span>,
+                            <span class="hljs-literal">"340"</span>,
+                            <span class="hljs-literal">"403"</span>,
+                            <span class="hljs-literal">"430"</span>
+                        ],
+                        <span class="hljs-attr">"top1"</span>: [
+                            <span class="hljs-literal">"0"</span>,
+                            <span class="hljs-literal">"3"</span>,
+                            <span class="hljs-literal">"4"</span>
+                        ],
+                        <span class="hljs-attr">"top2"</span>: [
+                            <span class="hljs-literal">"34"</span>
+                        ],
+                        <span class="hljs-attr">"top3"</span>: [
+                            <span class="hljs-literal">"034"</span>
+                        ],
                     }
                 ],
                 <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-number">1,</span>
@@ -2999,6 +3049,11 @@
                                         <td class="bRight">endDate</td>
                                         <td class="bRight">Date</td>
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">ticketId</td>
+                                        <td class="bRight">Number</td>
+                                        <td>If you want to showing some ticket. Please send your ticket id. If you want to showing all the ticket don't send ticket id.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">page</td>
@@ -3109,7 +3164,6 @@
                                     <tr>
                                         <td class="bRight">datetime</td>
                                         <td class="bRight">String</td>
-
                                         <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
                                     <tr>
@@ -3244,6 +3298,22 @@
                                         <td class="bRight">rateLevelAmount</td>
                                         <td class="bRight">float</td>
                                         <td>Amount of rate follow by rateLevel.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Position tracking (%) of agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">apiPt</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Position tracking (%) of api(amblotto).</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="bRight">drawResult</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object respone bet type(top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalDocs</td>
@@ -3383,43 +3453,70 @@
                                     <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span> {
-        <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-number">"agentapi",</span>
+        <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-number">"company",</span>
         <span class="hljs-attr">"startDate"</span>: <span class="hljs-number">"2021-07-14 15:04:05",</span>
         <span class="hljs-attr">"endDate"</span>: <span class="hljs-number">"2021-07-20 15:04:05",</span>
         <span class="hljs-attr">"result"</span>: {
             <span class="hljs-attr">"docs"</span>: [
                 {
-                <span class="hljs-attr">"no"</span>: 1,</span>
-                <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-number">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57",</span>
-                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"superbas@agentapi",</span>
-                <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-14 18:00:39",</span>
-                <span class="hljs-attr">"ticketId"</span>: <span class="hljs-number">6555,</span>
-                <span class="hljs-attr">"type"</span>: <span class="hljs-number">"thailotto",</span>
-                <span class="hljs-attr">"round"</span>:<span class="hljs-number"> 1,</span>
-                <span class="hljs-attr">"goverment"</span>: <span class="hljs-number">false,</span>
-                <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">30,</span>
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0,</span>
-                <span class="hljs-attr">"totalPayOutAmt"</span>:<span class="hljs-number"> 0,</span>
-                <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-30,</span>
-                <span class="hljs-attr"> "Status"</span>: <span class="hljs-number">"pending",</span>
-                <span class="hljs-attr"> "txtList"</span>: [
-                {
-                    <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0x",</span>
-                    <span class="hljs-attr">"betId"</span>:<span class="hljs-number"> "1",</span>
-                    <span class="hljs-attr">"betType"</span>:<span class="hljs-number"> "top6",</span>
-                    <span class="hljs-attr">"betNumber"</span>:<span class="hljs-number"> "555666",</span>
-                    <span class="hljs-attr">"betStatus"</span>:<span class="hljs-number"> "pending",</span>
-                    <span class="hljs-attr">"betAmt"</span>:<span class="hljs-number"> 10,</span>
-                    <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10,</span>
-                    <span class="hljs-attr">"betDiscount"</span>:<span class="hljs-number"> 0,</span>
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">50000,</span>
-                    <span class="hljs-attr">"payOutAmt"</span>:<span class="hljs-number"> 0,</span>
-                    <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0,</span>
-                    <span class="hljs-attr">"rateLevelAmount"</span>:<span class="hljs-number"> 0</span>
-                }
-            ]
-        }
-    ],
+                    <span class="hljs-attr">"no"</span>: 1,</span>
+                    <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-number">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57",</span>
+                    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"member1@company",</span>
+                    <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-14 18:00:39",</span>
+                    <span class="hljs-attr">"ticketId"</span>: <span class="hljs-number">6546,</span>
+                    <span class="hljs-attr">"type"</span>: <span class="hljs-number">"hanoylottospecial",</span>
+                    <span class="hljs-attr">"round"</span>:<span class="hljs-number"> 1,</span>
+                    <span class="hljs-attr">"goverment"</span>: <span class="hljs-number">false,</span>
+                    <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">1,</span>
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0,</span>
+                    <span class="hljs-attr">"totalPayOutAmt"</span>:<span class="hljs-number"> 0,</span>
+                    <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-1,</span>
+                    <span class="hljs-attr"> "Status"</span>: <span class="hljs-number">"False",</span>
+                    <span class="hljs-attr"> "txtList"</span>: [
+                        {
+                            <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0x",</span>
+                            <span class="hljs-attr">"betId"</span>:<span class="hljs-number"> "1",</span>
+                            <span class="hljs-attr">"betType"</span>:<span class="hljs-number"> "top3",</span>
+                            <span class="hljs-attr">"betNumber"</span>:<span class="hljs-number"> "123",</span>
+                            <span class="hljs-attr">"betStatus"</span>:<span class="hljs-number"> "False",</span>
+                            <span class="hljs-attr">"betAmt"</span>:<span class="hljs-number"> 1,</span>
+                            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">1,</span>
+                            <span class="hljs-attr">"betDiscount"</span>:<span class="hljs-number"> 0,</span>
+                            <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900,</span>
+                            <span class="hljs-attr">"payOutAmt"</span>:<span class="hljs-number"> 0,</span>
+                            <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0,</span>
+                            <span class="hljs-attr">"rateLevelAmount"</span>:<span class="hljs-number"> 0</span>
+                        }
+                    ],
+                    <span class="hljs-attr">"drawResult"</span>: {
+                        <span class="hljs-attr">"bottom1"</span>: [
+                            <span class="hljs-literal">"5"</span>,
+                            <span class="hljs-literal">"4"</span>
+                        ],
+                        <span class="hljs-attr">"bottom2"</span>: [
+                            <span class="hljs-literal">"54"</span>
+                        ],
+                        <span class="hljs-attr">"row3"</span>: [
+                            <span class="hljs-literal">"034"</span>,
+                            <span class="hljs-literal">"043"</span>,
+                            <span class="hljs-literal">"304"</span>,
+                            <span class="hljs-literal">"340"</span>,
+                            <span class="hljs-literal">"403"</span>,
+                            <span class="hljs-literal">"430"</span>
+                        ],
+                        <span class="hljs-attr">"top1"</span>: [
+                            <span class="hljs-literal">"0"</span>,
+                            <span class="hljs-literal">"3"</span>,
+                            <span class="hljs-literal">"4"</span>
+                        ],
+                        <span class="hljs-attr">"top2"</span>: [
+                            <span class="hljs-literal">"34"</span>
+                        ],
+                        <span class="hljs-attr">"top3"</span>: [
+                            <span class="hljs-literal">"034"</span>
+                        ],
+                    }
+            ],
             <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-number">1,</span>
             <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1,</span>
             <span class="hljs-attr">"totalPages"</span>: <span class="hljs-number">1,</span>
@@ -3428,9 +3525,9 @@
             <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false,</span>
             <span class="hljs-attr">"prevPage"</span>: <span class="hljs-number">null,</span>
             <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null</span>
-            }
-        },
-        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success",</span>
+        }
+    },
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success",</span>
 }</code></pre>
                                     <script src="./API_files/ex4_8B.js.download"></script>
                                 </div>
