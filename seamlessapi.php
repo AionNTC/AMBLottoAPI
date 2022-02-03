@@ -4147,35 +4147,35 @@
                             <span class="hljs-attr">"apiPt"</span>: <span class="hljs-number">0</span>,
                             <span class="hljs-attr">"agentPt"</span>: <span class="hljs-literal">0</span>
                         }
-                    ]
-                },
-                <span class="hljs-attr">"drawResult"</span>: {
-                    <span class="hljs-attr">"bottom1"</span>: [
-                        <span class="hljs-literal">"5"</span>,
-                        <span class="hljs-literal">"4"</span>
                     ],
-                    <span class="hljs-attr">"bottom2"</span>: [
-                        <span class="hljs-literal">"54"</span>
-                    ],
-                    <span class="hljs-attr">"row3"</span>: [
-                        <span class="hljs-literal">"034"</span>,
-                        <span class="hljs-literal">"043"</span>,
-                        <span class="hljs-literal">"304"</span>,
-                        <span class="hljs-literal">"340"</span>,
-                        <span class="hljs-literal">"403"</span>,
-                        <span class="hljs-literal">"430"</span>
-                    ],
-                    <span class="hljs-attr">"top1"</span>: [
-                        <span class="hljs-literal">"0"</span>,
-                        <span class="hljs-literal">"3"</span>,
-                        <span class="hljs-literal">"4"</span>
-                    ],
-                    <span class="hljs-attr">"top2"</span>: [
-                        <span class="hljs-literal">"34"</span>
-                    ],
-                    <span class="hljs-attr">"top3"</span>: [
-                        <span class="hljs-literal">"034"</span>
-                    ],
+                    <span class="hljs-attr">"drawResult"</span>: {
+                        <span class="hljs-attr">"bottom1"</span>: [
+                            <span class="hljs-literal">"5"</span>,
+                            <span class="hljs-literal">"4"</span>
+                        ],
+                        <span class="hljs-attr">"bottom2"</span>: [
+                            <span class="hljs-literal">"54"</span>
+                        ],
+                        <span class="hljs-attr">"row3"</span>: [
+                            <span class="hljs-literal">"034"</span>,
+                            <span class="hljs-literal">"043"</span>,
+                            <span class="hljs-literal">"304"</span>,
+                            <span class="hljs-literal">"340"</span>,
+                            <span class="hljs-literal">"403"</span>,
+                            <span class="hljs-literal">"430"</span>
+                        ],
+                        <span class="hljs-attr">"top1"</span>: [
+                            <span class="hljs-literal">"0"</span>,
+                            <span class="hljs-literal">"3"</span>,
+                            <span class="hljs-literal">"4"</span>
+                        ],
+                        <span class="hljs-attr">"top2"</span>: [
+                            <span class="hljs-literal">"34"</span>
+                        ],
+                        <span class="hljs-attr">"top3"</span>: [
+                            <span class="hljs-literal">"034"</span>
+                        ]
+                    }
                 }
             ],
             <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-string">1</span>,

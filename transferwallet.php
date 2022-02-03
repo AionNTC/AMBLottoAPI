@@ -2904,7 +2904,7 @@
         <span class="hljs-attr">"endDate"</span>: <span class="hljs-number">"2021-07-20 15:04:05",</span>
         <span class="hljs-attr">"result"</span>: {
             <span class="hljs-attr">"docs"</span>: [
-                    {
+                {
                     <span class="hljs-attr">"no"</span>: <span class="hljs-number">1,</span>
                     <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-number">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
                     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"member1@company",</span>
@@ -2919,23 +2919,22 @@
                     <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-100,</span>
                     <span class="hljs-attr">"Status"</span>: <span class="hljs-number">"False",</span>
                     <span class="hljs-attr">"txtList"</span>: [
-                            {
-                            <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjYwOS0x",</span>
-                            <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1",</span>
-                            <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3",</span>
-                            <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"123",</span>
-                            <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"False",</span>
-                            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">100,</span>
-                            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">100,</span>
-                            <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0,</span>
-                            <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900,</span>
-                            <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0,</span>
-                            <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0,</span>
-                            <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>,
-                            <span class="hljs-attr">"apiPt"</span>: <span class="hljs-number">0</span>,
-                            <span class="hljs-attr">"agentPt"</span>: <span class="hljs-number">0</span>
-                            }
-                        ]
+                        {
+                        <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjYwOS0x",</span>
+                        <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1",</span>
+                        <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3",</span>
+                        <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"123",</span>
+                        <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"False",</span>
+                        <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">100,</span>
+                        <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">100,</span>
+                        <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0,</span>
+                        <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900,</span>
+                        <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0,</span>
+                        <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0,</span>
+                        <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-attr">"apiPt"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-attr">"agentPt"</span>: <span class="hljs-number">0</span>
+                        }
                     ],
                     <span class="hljs-attr">"drawResult"</span>: {
                         <span class="hljs-attr">"bottom1"</span>: [
@@ -2963,21 +2962,22 @@
                         ],
                         <span class="hljs-attr">"top3"</span>: [
                             <span class="hljs-literal">"034"</span>
-                        ],
+                        ]
                     }
-                ],
-                <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-number">1,</span>
-                <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1,</span>
-                <span class="hljs-attr">"totalPages"</span>: <span class="hljs-number">1,</span>
-                <span class="hljs-attr">"page"</span>: <span class="hljs-number">1,</span>
-                <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-number">false,</span>
-                <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false,</span>
-                <span class="hljs-attr">"prevPage"</span>: <span class="hljs-number">null,</span>
-                <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null,</span>
-            }
-        },
-        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success"</span>
-    }</code></pre>
+                }
+            ],
+            <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-number">1,</span>
+            <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1,</span>
+            <span class="hljs-attr">"totalPages"</span>: <span class="hljs-number">1,</span>
+            <span class="hljs-attr">"page"</span>: <span class="hljs-number">1,</span>
+            <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-number">false,</span>
+            <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false,</span>
+            <span class="hljs-attr">"prevPage"</span>: <span class="hljs-number">null,</span>
+            <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null,</span>
+        }
+    },
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success"</span>
+}</code></pre>
                                     <script src="./API_files/ex4_8B.js.download"></script>
                                 </div>
                             </div>
