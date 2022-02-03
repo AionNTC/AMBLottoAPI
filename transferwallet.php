@@ -3468,7 +3468,7 @@
                     <span class="hljs-attr">"type"</span>: <span class="hljs-number">"hanoylottospecial"</span>,
                     <span class="hljs-attr">"round"</span>: <span class="hljs-literal">1</span>,
                     <span class="hljs-attr">"goverment"</span>: <span class="hljs-literal">false</span>,
-                    <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-literal">100</span>,
+                    <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-literal">1</span>,
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-literal">-1</span>,
