@@ -3967,6 +3967,16 @@
                                         <td class="bRight">Position tracking (%) of api(amblotto).</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">drawResult</td>
+                                        <td class="bRight">Object</td>
+                                        <td class="bRight">Object respone ber type(top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1).</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">drawResult</td>
+                                        <td class="bRight">Object</td>
+                                        <td class="bRight">Object respone ber type(top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1).</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">totalDocs</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Total number of documents in collection that match a query.</td>
@@ -4117,14 +4127,14 @@
                     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"member1@compseamless"</span>,
                     <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-14 14:31:30"</span>,
                     <span class="hljs-attr">"ticketId"</span>: <span class="hljs-number">6546</span>,
-                    <span class="hljs-attr">"type"</span>: <span class="hljs-number">"thailotto"</span>,
+                    <span class="hljs-attr">"type"</span>: <span class="hljs-number">"hanoylottospecial"</span>,
                     <span class="hljs-attr">"round"</span>: <span class="hljs-literal">1</span>,
                     <span class="hljs-attr">"goverment"</span>: <span class="hljs-literal">false</span>,
                     <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-literal">1</span>,
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-literal">-1</span>,
-                    <span class="hljs-attr">"status"</span>: <span class="hljs-literal">"Pending"</span>,
+                    <span class="hljs-attr">"status"</span>: <span class="hljs-literal">"False"</span>,
                     <span class="hljs-attr">"txtList"</span>: [
                         {
                             <span class="hljs-attr">"betKey"</span>: <span class="hljs-literal">"NjU0Ni0x"</span>,
@@ -4143,16 +4153,44 @@
                             <span class="hljs-attr">"agentPt"</span>: <span class="hljs-literal">0</span>
                         }
                     ]
+                },
+                <span class="hljs-attr">"drawResult"</span>: {
+                    <span class="hljs-attr">"bottom1"</span>: [
+                        <span class="hljs-literal">"5"</span>,
+                        <span class="hljs-literal">"4"</span>
+                    ],
+                    <span class="hljs-attr">"bottom2"</span>: [
+                        <span class="hljs-literal">"54"</span>
+                    ],
+                    <span class="hljs-attr">"row3"</span>: [
+                        <span class="hljs-literal">"034"</span>,
+                        <span class="hljs-literal">"043"</span>,
+                        <span class="hljs-literal">"304"</span>,
+                        <span class="hljs-literal">"340"</span>,
+                        <span class="hljs-literal">"403"</span>,
+                        <span class="hljs-literal">"430"</span>
+                    ],
+                    <span class="hljs-attr">"top1"</span>: [
+                        <span class="hljs-literal">"0"</span>,
+                        <span class="hljs-literal">"3"</span>,
+                        <span class="hljs-literal">"4"</span>
+                    ],
+                    <span class="hljs-attr">"top2"</span>: [
+                        <span class="hljs-literal">"34"</span>
+                    ],
+                    <span class="hljs-attr">"top3"</span>: [
+                        <span class="hljs-literal">"034"</span>
+                    ],
                 }
             ],
-            <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-string">63</span>,
-            <span class="hljs-attr">"limit"</span>: <span class="hljs-string">1</span>,
-            <span class="hljs-attr">"totalPages"</span>: <span class="hljs-string">63</span>,
+            <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-string">1</span>,
+            <span class="hljs-attr">"limit"</span>: <span class="hljs-string">10</span>,
+            <span class="hljs-attr">"totalPages"</span>: <span class="hljs-string">1</span>,
             <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
             <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-string">false</span>,
-            <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-string">true</span>,
+            <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-string">false</span>,
             <span class="hljs-attr">"prevPage"</span>: <span class="hljs-string">null</span>,
-            <span class="hljs-attr">"nextPage"</span>: <span class="hljs-string">2</span>
+            <span class="hljs-attr">"nextPage"</span>: <span class="hljs-string">null</span>
         }
     },
     <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"Success"</span>
@@ -4489,6 +4527,11 @@
                                         <td class="bRight">Position tracking (%) of api(amblotto).</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">drawResult</td>
+                                        <td class="bRight">Object</td>
+                                        <td class="bRight">Object respone ber type(top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1).</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">totalDocs</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Total number of documents in collection that match a query.</td>
@@ -4666,14 +4709,14 @@
                     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"member1@compseamless"</span>,
                     <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-14 14:31:30"</span>,
                     <span class="hljs-attr">"ticketId"</span>: <span class="hljs-number">6546</span>,
-                    <span class="hljs-attr">"type"</span>: <span class="hljs-number">"thailotto"</span>,
+                    <span class="hljs-attr">"type"</span>: <span class="hljs-number">"hanoylottospecial"</span>,
                     <span class="hljs-attr">"round"</span>: <span class="hljs-literal">1</span>,
                     <span class="hljs-attr">"goverment"</span>: <span class="hljs-literal">false</span>,
                     <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-literal">1</span>,
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-literal">-1</span>,
-                    <span class="hljs-attr">"status"</span>: <span class="hljs-literal">"Pending"</span>,
+                    <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-literal">-100</span>,
+                    <span class="hljs-attr">"status"</span>: <span class="hljs-literal">"False"</span>,
                     <span class="hljs-attr">"txtList"</span>: [
                         {
                             <span class="hljs-attr">"betKey"</span>: <span class="hljs-literal">"NjU0Ni0x"</span>,
@@ -4681,8 +4724,8 @@
                             <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3"</span>,
                             <span class="hljs-attr">"betNumber"</span>: <span class="hljs-literal">"123"</span>,
                             <span class="hljs-attr">"betStatus"</span>: <span class="hljs-literal">"Pending"</span>,
-                            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">1</span>,
-                            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">1</span>,
+                            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">100</span>,
+                            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">100</span>,
                             <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-literal">0</span>,
                             <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
                             <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-literal">0</span>,
@@ -4692,16 +4735,44 @@
                             <span class="hljs-attr">"agentPt"</span>: <span class="hljs-literal">0</span>
                         }
                     ]
+                },
+                <span class="hljs-attr">"drawResult"</span>: {
+                    <span class="hljs-attr">"bottom1"</span>: [
+                        <span class="hljs-literal">"5"</span>,
+                        <span class="hljs-literal">"4"</span>
+                    ],
+                    <span class="hljs-attr">"bottom2"</span>: [
+                        <span class="hljs-literal">"54"</span>
+                    ],
+                    <span class="hljs-attr">"row3"</span>: [
+                        <span class="hljs-literal">"034"</span>,
+                        <span class="hljs-literal">"043"</span>,
+                        <span class="hljs-literal">"304"</span>,
+                        <span class="hljs-literal">"340"</span>,
+                        <span class="hljs-literal">"403"</span>,
+                        <span class="hljs-literal">"430"</span>
+                    ],
+                    <span class="hljs-attr">"top1"</span>: [
+                        <span class="hljs-literal">"0"</span>,
+                        <span class="hljs-literal">"3"</span>,
+                        <span class="hljs-literal">"4"</span>
+                    ],
+                    <span class="hljs-attr">"top2"</span>: [
+                        <span class="hljs-literal">"34"</span>
+                    ],
+                    <span class="hljs-attr">"top3"</span>: [
+                        <span class="hljs-literal">"034"</span>
+                    ],
                 }
             ],
-            <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-string">73</span>,
-            <span class="hljs-attr">"limit"</span>: <span class="hljs-string">10</span>,
-            <span class="hljs-attr">"totalPages"</span>: <span class="hljs-string">8</span>,
+            <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-string">1</span>,
+            <span class="hljs-attr">"limit"</span>: <span class="hljs-string">1</span>,
+            <span class="hljs-attr">"totalPages"</span>: <span class="hljs-string">1</span>,
             <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
             <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-string">false</span>,
-            <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-string">true</span>,
+            <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-string">false</span>,
             <span class="hljs-attr">"prevPage"</span>: <span class="hljs-string">null</span>,
-            <span class="hljs-attr">"nextPage"</span>: <span class="hljs-string">2</span>
+            <span class="hljs-attr">"nextPage"</span>: <span class="hljs-string">null</span>
         }
     },
     <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"Success"</span>
