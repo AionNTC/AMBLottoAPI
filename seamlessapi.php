@@ -975,7 +975,6 @@
                     <div class="form-group col-12">
                         <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             เมื่อผู้เล่นเข้าสู่หน้าแรกหรือหน้าอื่นๆ ของระบบ AMB Lotto ระบบจะส่งคำขอเพื่อรับยอดเงินคงเหลือของผู้เล่นจริง</label><br>
-                            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** รองรับแบบ <b style="color:red;font-size:1.5rem"> Multi Agent </b></label>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
