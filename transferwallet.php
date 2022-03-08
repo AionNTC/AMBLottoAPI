@@ -24,7 +24,7 @@
                         <label set-lan="html:5.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             ในส่วนนี้จะแสดงรายละเอียดของการใช้งานระบบ Transferwallet เพื่อไปใช้ในระบบคู่ธุรกิจภายนอก
                         </label>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** รองรับแบบ <b style="color:red;font-size:1.5rem"> Multi Agent </b></label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** รองรับแบบ <b style="color:red"> Multi Agent </b></label>
                     </div>
                 </div>
                 <div class="pb-3"></div>
