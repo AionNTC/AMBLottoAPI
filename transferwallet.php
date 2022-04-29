@@ -2675,7 +2675,7 @@
 
                                     <tr>
                                         <td class="bRight">betId</td>
-                                        <td class="bRight">Number</td>
+                                        <td class="bRight">String</td>
 
                                         <td>Bet id of bet position.</td>
                                     </tr>
@@ -3233,7 +3233,7 @@
 
                                     <tr>
                                         <td class="bRight">betId</td>
-                                        <td class="bRight">Number</td>
+                                        <td class="bRight">String</td>
 
                                         <td>Bet id of bet position.</td>
                                     </tr>
