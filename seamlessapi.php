@@ -479,7 +479,7 @@
                         </div>
                         <div class="col-12">
                             <div class="row">
-                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslottoฃ
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto
                                         :&nbsp;</label><label style="margin-bottom:0px"> https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&<label class="txtHead" style="margin-bottom:0px">lottotype=laoslotto</label></label>
                                 </div>
                             </div>
