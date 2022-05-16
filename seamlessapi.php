@@ -2976,13 +2976,11 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
-                    <!-- <div class="form-group col-12">
+                    <div class="form-group col-12">
                         <label
                             set-lan="html:356">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            When a player places a bet, the Pretty Gaming system sends a request UserPayTips to the
-                            partner's system. The request will be timed out after 4 seconds and PlaceBetCancel will
-                            be sent.</label>
-                    </div> -->
+                            ถ้ามีการออกผลรางวัลผิดพลาด ระบบ AMB Lotto จะส่งคำขอ UserPlaceReToRunning แล้วระบบจะทำการออกผลใหม่อีกครั้ง</label>
+                    </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
@@ -3265,13 +3263,12 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
-                    <!-- <div class="form-group col-12">
+                    <div class="form-group col-12">
                         <label
                             set-lan="html:357">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            When a player places a bet, the Pretty Gaming system sends a request UserPayTipsCalcel
-                            to the partner's system. The request will be timed out after 4 seconds and
-                            PlaceBetCancel will be sent.</label>
-                    </div> -->
+                            เมื่อผู้เล่นวางเดิมพันประเภทหวยยี่กีอย่างน้อย 100 บาท/ตั๋ว แล้วยิงเลขยี่กีระบบ AMB Lotto จะส่งคำขอ UserPayReward 
+ไปยังระบบของคู่ธุรกิจ เมื่อ user ยิงเลขอยู่ในลำดับที่ 1 หรือ 16 คำขอจะหมดเวลาหลังจาก 10 วินาทีและจะส่ง UserPayRewardCancel</label>
+                    </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
@@ -3477,6 +3474,11 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
+                <div class="form-group col-12">
+                        <label
+                            set-lan="html:356">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            ใช้ยกเลิกเมื่อ UserPayReward เกิดข้อผิดพลาด หรือ Time Out</label>
+                    </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;">Request Body</b></lable>
                     </div>
