@@ -344,7 +344,7 @@
                                     </tr>
                                     <tr>
                                         <td class="bRight txtMid">หวยลาว(แทงแบบไทย)</td>
-                                        <td class="bRight txtCenter txtMid">plotto</td>
+                                        <td class="bRight txtCenter txtMid">laoslotto</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight txtMid">หวยฮานอย</td>
@@ -6958,37 +6958,37 @@
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">"0"</span>,
     <span class="hljs-attr">"dataenable"</span>: {
         <span class="hljs-attr">"baaclotto"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-string">false</span>
         },
         <span class="hljs-attr">"gsblotto"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-string">false</span>
         },
         <span class="hljs-attr">"hanoylotto"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-string">false</span>
         },
         <span class="hljs-attr">"hanoylottospecial"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-string">false</span>
         },
         <span class="hljs-attr">"hanoylottovip"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"false"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-string">false</span>
         },
         <span class="hljs-attr">"laoslotto"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-string">false</span>
         },
         <span class="hljs-attr">"malaylotto"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-string">false</span>
         },
         <span class="hljs-attr">"pingponglotto"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-string">false</span>
         },
         <span class="hljs-attr">"stock"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-string">false</span>
         },
         <span class="hljs-attr">"thailotto"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">true</span>
         },
         <span class="hljs-attr">"yeekeelotto"</span>: {
-            <span class="hljs-attr">"enable"</span>: <span class="hljs-number">"true"</span>
+            <span class="hljs-attr">"enable"</span>: <span class="hljs-string">false</span>
         }
     },
     <span class="hljs-attr">"datahotplaceout"</span>: {
@@ -7006,7 +7006,7 @@
                 <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"top3"</span>: {
                 <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
@@ -7014,97 +7014,97 @@
         },
         <span class="hljs-attr">"gsblotto"</span>: {
             <span class="hljs-attr">"bottom1"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"row3"</span>: {
                 <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">100</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             }
         },
         <span class="hljs-attr">"hanoylotto"</span>: {
             <span class="hljs-attr">"hanoylotto"</span>: {
                 <span class="hljs-attr">"bottom1"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"bottom2"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"row3"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top1"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top2"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top3"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">100</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 }
             },
             <span class="hljs-attr">"hanoylotto_set"</span>: {
-                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-number">null</span>
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-string">null</span>
             }
         },
         <span class="hljs-attr">"hanoylottospecial"</span>: {
             <span class="hljs-attr">"hanoylottospecial"</span>: {
                 <span class="hljs-attr">"bottom1"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"bottom2"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"row3"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top1"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top2"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top3"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 }
             },
-            <span class="hljs-attr">"hanoylottospecial"</span>: {
-                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-number">null</span>
+            <span class="hljs-attr">"hanoylottospecial_set"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-string">null</span>
             }
         },
         <span class="hljs-attr">"hanoylottovip"</span>: {
             <span class="hljs-attr">"hanoylottovip"</span>: {
                 <span class="hljs-attr">"bottom1"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"bottom2"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"row3"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top1"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top2"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top3"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">10</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 }
             },
             <span class="hljs-attr">"hanoylottovip_set"</span>: {
-                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-number">null</span>
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-string">null</span>
             }
         },
         <span class="hljs-attr">"laoslotto"</span>: {
@@ -7134,30 +7134,32 @@
                     <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top4"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">800</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 }
             },
-            <span class="hljs-attr">"laoslotto_set"</span>: <span class="hljs-number">null</span>
+            <span class="hljs-attr">"laoslotto_set"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-string">null</span>
+            }
         },
         <span class="hljs-attr">"malaylotto"</span>: {
             <span class="hljs-attr">"malaylotto"</span>: {
                 <span class="hljs-attr">"bottom1"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"bottom2"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"row3"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top1"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top2"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 },
                 <span class="hljs-attr">"top3"</span>: {
-                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
                 }
             },
             <span class="hljs-attr">"malaylotto_set"</span>: {
@@ -7181,7 +7183,7 @@
                 <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">500</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"top2"</span>: {
                 <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
@@ -7196,7 +7198,7 @@
                 <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"top6"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5000</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             }
         },
         <span class="hljs-attr">"stock"</span>: {
@@ -7216,65 +7218,66 @@
                 <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             },
             <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">50</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
             }
         },
         <span class="hljs-attr">"thailotto"</span>: {
             <span class="hljs-attr">"bottom1"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">25000</span>
             },
             <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">3000</span>
             },
             <span class="hljs-attr">"bottom3"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5000</span>
             },
             <span class="hljs-attr">"row2"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">15000</span>
             },
             <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5000</span>
             },
             <span class="hljs-attr">"row4"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>
             },
             <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">500</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">25000</span>
             },
             <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">3000</span>
             },
             <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">300</span>
             },
             <span class="hljs-attr">"top4"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">500</span>
             },
             <span class="hljs-attr">"top5"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">500</span>
             },
             <span class="hljs-attr">"top6"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">500</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">250</span>
             }
         },
         <span class="hljs-attr">"yeekeelotto"</span>: {
             <span class="hljs-attr">"bottom1"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
-            },
-            <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
-            },
-            <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
-            },
-            <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
-            },
-            <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
-            },
-            <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">50</span>
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">0</span>
+                }
             }
         }
     },
@@ -7286,11 +7289,11 @@
                 },
                 <span class="hljs-attr">"bottom2"</span>: {
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
                 },
                 <span class="hljs-attr">"row3"</span>: {
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
                 },
                 <span class="hljs-attr">"top1"</span>: {
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
@@ -7298,11 +7301,11 @@
                 },
                 <span class="hljs-attr">"top2"</span>: {
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
                 },
                 <span class="hljs-attr">"top3"</span>: {
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
                 }
             }
         },
@@ -7313,11 +7316,11 @@
             },
              <span class="hljs-attr">"bottom2"</span>: {
              <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
             },
              <span class="hljs-attr">"row3"</span>: {
              <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
             },
              <span class="hljs-attr">"top1"</span>: {
              <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
@@ -7325,881 +7328,801 @@
             },
              <span class="hljs-attr">"top2"</span>: {
              <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
             },
              <span class="hljs-attr">"top3"</span>: {
              <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-             <span class="hljs-attr">"payout"</span>: 1000</span>
+             <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
             }
         },
-         <span class="hljs-attr">"hanoylotto"</span>: {
-            <span class="hljs-attr">"bottom1"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+        <span class="hljs-attr">"hanoylotto"</span>: {
+            <span class="hljs-attr">"hanoylotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
             },
-             <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-             <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
-            },
-             <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
-            },
-             <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
-            }
-        },
-        <span class="hljs-attr">"hanoylotto_set"</span>: {
-            <span class="hljs-attr">"back2"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"front2"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 166.6</span>
-            },
-            <span class="hljs-attr">"row4"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">416.6</span>
-            },
-            <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
-            },
-            <span class="hljs-attr">"top4"</span>: {
-                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 10000</span>
+            <span class="hljs-attr">"hanoylotto_set"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-string">null</span>
             }
         },
         <span class="hljs-attr">"hanoylottospecial"</span>: {
-            <span class="hljs-attr">"bottom1"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+            <span class="hljs-attr">"hanoylottospecial"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
             },
-            <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
-            },
-            <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
-            },
-            <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
-            }
-        },
-        <span class="hljs-attr">"hanoylottospecial_set"</span>: {
-            <span class="hljs-attr">"back2"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"front2"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 166.6</span>
-            },
-            <span class="hljs-attr">"row4"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">416.6</span>
-            },
-            <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
-            },
-           <span class="hljs-attr"> "top4"</span>: {
-            <span class="hljs-attr"> "discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr"> "payout"</span>: 10000</span>
+            <span class="hljs-attr">"hanoylottospecial_set"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-string">null</span>
             }
         },
         <span class="hljs-attr">"hanoylottovip"</span>: {
-            <span class="hljs-attr">"bottom1"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+            <span class="hljs-attr">"hanoylottovip"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
             },
-            <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 166.6</span>
-            },
-            <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 3.2</span>
-            },
-            <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 900</span>
+            <span class="hljs-attr">"hanoylottovip_set"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-string">null</span>
             }
         },
-        <span class="hljs-attr">"hanoylottovip_set"</span>: {
-        <span class="hljs-attr">"back2"</span>: {
-        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 100</span>
+        <span class="hljs-attr">"laoslotto"</span>: {
+            <span class="hljs-attr">"laoslotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">12</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">220</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4500</span>
+                }
             },
-            <span class="hljs-attr">"front2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 100</span>
-            },
-            <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 166.6</span>
-            },
-            <span class="hljs-attr">"row4"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 416.6</span>
-            },
-            <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
-            },
-            <span class="hljs-attr">"top4"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">9000</span>
-            }
-        },
-        <span class="hljs-attr">"laoslotto_thai"</span>: {
-        <span class="hljs-attr">"back2"</span>: {
-        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 100</span>
-            },
-            <span class="hljs-attr">"front2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 100</span>
-            },
-            <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 166.6</span>
-            },
-            <span class="hljs-attr">"row4"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">416.6</span>
-            },
-            <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
-            },
-            <span class="hljs-attr">"top4"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">10000</span>
+            <span class="hljs-attr">"laoslotto_set"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-string">null</span>
             }
         },
         <span class="hljs-attr">"malaylotto"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+            <span class="hljs-attr">"malaylotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+                },
+                <span class="hljs-attr">"bottom2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                },
+                <span class="hljs-attr">"top1"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                },
+                <span class="hljs-attr">"top2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                }
             },
-            <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
-            },
-            <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
-            },
-            <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
-            }
-        },
-        <span class="hljs-attr">"malaylotto_set"</span>: {
-        <span class="hljs-attr">"back2"</span>: {
-        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
-            },
-            <span class="hljs-attr">"front2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 100</span>
-            },
-            <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
-            },
-            <span class="hljs-attr">"row4"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 416.6</span>
-            },
-            <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
-            },
-            <span class="hljs-attr">"top4"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 10000</span>
+            <span class="hljs-attr">"malaylotto_set"</span>: {
+                <span class="hljs-attr">"lottoset"</span>: <span class="hljs-string">null</span>
             }
         },
         <span class="hljs-attr">"pingponglotto"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
             },
             <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
             },
             <span class="hljs-attr">"row2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">16.6</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">12</span>
             },
             <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
             },
             <span class="hljs-attr">"row4"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">416.6</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
             },
             <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 3.2</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
             },
             <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
             },
             <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
             },
             <span class="hljs-attr">"top4"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">5000</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">5000</span>
             },
             <span class="hljs-attr">"top5"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25000</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25000</span>
             },
             <span class="hljs-attr">"top6"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 50000</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">50000</span>
             }
         },
         <span class="hljs-attr">"stock"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>,</span>
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
             },
             <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
             },
             <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">166.6</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
             },
             <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
             },
             <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">100</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
             },
             <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
-            }
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+            }   
         },
         <span class="hljs-attr">"thailotto"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 4.2</span>
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
             },
             <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
             },
             <span class="hljs-attr">"bottom3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
             },
             <span class="hljs-attr">"row2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">12</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">12</span>
             },
             <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
             },
             <span class="hljs-attr">"row4"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
             },
             <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
             },
             <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
             },
             <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
             },
             <span class="hljs-attr">"top4"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">5000</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">5000</span>
             },
             <span class="hljs-attr">"top5"</span>: {
-            <span class="hljs-attr">"discount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25000</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25000</span>
             },
             <span class="hljs-attr">"top6"</span>: {
-            <span class="hljs-attr">"discount"</span>: 10</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">50000</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">50000</span>
             }
         },
         <span class="hljs-attr">"yeekeelotto"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
-        <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">4.2</span>
             },
             <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 90</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
             },
             <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">150</span>
             },
             <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 3.2</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">3.2</span>
             },
             <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
-            <span class="hljs-attr">"payout"</span>:<span class="hljs-number"> 90</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">90</span>
             },
             <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">10</span>,
-            <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
-            }
-        }
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
+            }   
     },
     <span class="hljs-attr">"dataplaceout"</span>: {
-    <span class="hljs-attr">"baaclotto"</span>: {
-    <span class="hljs-attr">"bottom1"</span>: {
-    <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-    <span class="hljs-attr">"levellist"</span>: []
+        <span class="hljs-attr">"baaclotto"</span>: {
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                <span class="hljs-attr">"levellist"</span>:</span>: []
             },
             <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">5000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             }
         },
         <span class="hljs-attr">"gsblotto"</span>: {
             <span class="hljs-attr">"bottom1"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">5000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             }
         },
         <span class="hljs-attr">"hanoylotto"</span>: {
-        <span class="hljs-attr">"hanoylotto"</span>: {
+            <span class="hljs-attr">"hanoylotto"</span>: {
                 <span class="hljs-attr">"bottom1"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-number">3.2</span>
+                    ]
                 },
                 <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-number">89</span>
+                    ]
                 },
                 <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-number">149</span>
+                    ]
                 },
                 <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-number">2.2</span>
+                    ]
                 },
                 <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-number">89</span>
+                    ]
                 },
                 <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">5000</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-number">899</span>
+                    ]
                 }
             },
             <span class="hljs-attr">"hanoylotto_set"</span>: {
-            <span class="hljs-attr">"lottoset"</span>: {
-            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"lottoset"</span>: {
+                    <span class="hljs-attr">"amount"</span>: <span class="hljs-number">300</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 }
             }
         },
         <span class="hljs-attr">"hanoylottospecial"</span>: {
-        <span class="hljs-attr">"hanoylottospecial"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"levellist"</span>: []
+            <span class="hljs-attr">"hanoylottospecial"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 },
                 <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 },
                 <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 },
                 <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 },
                 <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 },
                 <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 }
             },
             <span class="hljs-attr">"hanoylottospecial_set"</span>: {
-            <span class="hljs-attr">"lottoset"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"lottoset"</span>: {
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">300</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 }
             }
         },
         <span class="hljs-attr">"hanoylottovip"</span>: {
-        <span class="hljs-attr">"hanoylottovip"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"levellist"</span>: [
-        <span class="hljs-attr">3.2</span>
+            <span class="hljs-attr">"hanoylottovip"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">100</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-number">4</span>,
+                        <span class="hljs-number">3</span>,
+                        <span class="hljs-number">2</span>,
+                        <span class="hljs-number">1</span>
                     ]
                 },
                 <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: [
-                <span class="hljs-attr">80</span>
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-attr">-10</span>
                     ]
                 },
                 <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: [
-                <span class="hljs-attr">116.6</span>
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-attr">50</span>
                     ]
                 },
                 <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: [
-                <span class="hljs-attr">2.2</span>
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-number">3</span>,
+                        <span class="hljs-number">2</span>,
+                        <span class="hljs-number">1</span>
                     ]
                 },
                 <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: [
-                <span class="hljs-attr">70</span>
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-attr">-10</span>
                     ]
                 },
                 <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: [
-                <span class="hljs-attr">800</span>
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                    <span class="hljs-attr">"levellist"</span>: [
+                        <span class="hljs-attr">800</span>
                     ]
                 }
             },
             <span class="hljs-attr">"hanoylottovip_set"</span>: {
-            <span class="hljs-attr">"lottoset"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"lottoset"</span>: {
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">300</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 }
             }
         },
         <span class="hljs-attr">"laoslotto"</span>: {
-        <span class="hljs-attr">"laoslotto"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"levellist"</span>: []
+            <span class="hljs-attr">"laoslotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                    <span class="hljs-attr">"levellist"</span>: null
                 },
                 <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                    <span class="hljs-attr">"levellist"</span>: null
                 },
                 <span class="hljs-attr">"row2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                    <span class="hljs-attr">"levellist"</span>: null
                 },
                 <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"levellist"</span>: null
                 },
                 <span class="hljs-attr">"row4"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">1000</span>,
+                    <span class="hljs-attr">"levellist"</span>: null
                 },
                 <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                    <span class="hljs-attr">"levellist"</span>: null
                 },
                 <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                    <span class="hljs-attr">"levellist"</span>: null
                 },
                 <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                    <span class="hljs-attr">"levellist"</span>: null
                 },
                 <span class="hljs-attr">"top4"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">200</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:</span>: <span class="hljs-number">500</span>,
+                    <span class="hljs-attr">"levellist"</span>: null
                 }
             },
             <span class="hljs-attr">"laoslotto_set"</span>: {
-            <span class="hljs-attr">"bottom1"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
-                },
-                <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
-                },
-                <span class="hljs-attr">"row2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
-                },
-                <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
-                },
-                <span class="hljs-attr">"row4"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1</span>,
-                <span class="hljs-attr">"levellist"</span>: []
-                },
-                <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
-                },
-                <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
-                },
-                <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
-                },
-                <span class="hljs-attr">"top4"</span>: {
-                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">200</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"lottoset"</span>: {
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">300</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 }
-            }
+            } 
         },
         <span class="hljs-attr">"malaylotto"</span>: {
-        <span class="hljs-attr">"malaylotto"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"levellist"</span>: []
+            <span class="hljs-attr">"malaylotto"</span>: {
+                <span class="hljs-attr">"bottom1"</span>: {
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 },
                 <span class="hljs-attr">"bottom2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 },
                 <span class="hljs-attr">"row3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 },
                 <span class="hljs-attr">"top1"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 },
                 <span class="hljs-attr">"top2"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 },
                 <span class="hljs-attr">"top3"</span>: {
-                <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-                <span class="hljs-attr">"levellist"</span>: []
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 }
             },
             <span class="hljs-attr">"malaylotto_set"</span>: {
-            <span class="hljs-attr">"lottoset"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"lottoset"</span>: {
+                    <span class="hljs-attr">"amount"</span>:<span class="hljs-number">300</span>,
+                    <span class="hljs-attr">"levellist"</span>: []
                 }
             }
         },
         <span class="hljs-attr">"pingponglotto"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"levellist"</span>: []
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">20000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"row2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">20000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">5000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"row4"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">20000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top4"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top5"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">1000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top6"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             }
         },
         <span class="hljs-attr">"stock"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"levellist"</span>: []
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">5000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: []
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             }
         },
         <span class="hljs-attr">"thailotto"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
-        <span class="hljs-attr">"levellist"</span>: [
-        <span class="hljs-attr">3.1</span>,
-        <span class="hljs-attr">2</span>
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">50000</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">4</span>,
+                    <span class="hljs-attr">3</span>,
+                    <span class="hljs-attr">2</span>,
+                    <span class="hljs-attr">1</span>
                 ]
             },
             <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">70</span>,
-            <span class="hljs-attr">50</span>
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 6000</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">70</span>,
+                    <span class="hljs-attr">50</span>,
+                    <span class="hljs-attr">30</span>,
+                    <span class="hljs-attr">20</span>
                 ]
             },
             <span class="hljs-attr">"bottom3"</span>: {
-            <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">155</span>,
-            <span class="hljs-attr">145</span>
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 10000</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">125</span>,
+                    <span class="hljs-attr">100</span>,
+                    <span class="hljs-attr">75</span>,
+                    <span class="hljs-attr">50</span>
                 ]
             },
             <span class="hljs-attr">"row2"</span>: {
-            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">10</span>,
-            <span class="hljs-attr">8</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">25000</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">10</span>,
+                    <span class="hljs-attr">8</span>,
+                    <span class="hljs-attr">6</span>,
+                    <span class="hljs-attr">4</span>
                 ]
             },
             <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">80</span>,
-            <span class="hljs-attr">70</span>
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">90</span>,
+                    <span class="hljs-attr">80</span>,
+                    <span class="hljs-attr">70</span>,
+                    <span class="hljs-attr">60</span>
                 ]
             },
             <span class="hljs-attr">"row4"</span>: {
-            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">155</span>,
-            <span class="hljs-attr">145</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">200</span>,
+                    <span class="hljs-attr">175</span>,
+                    <span class="hljs-attr">150</span>,
+                    <span class="hljs-attr">125</span>
                 ]
             },
             <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">2.1,</span>
-            <span class="hljs-attr">1</span>
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 50000</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">3</span>,
+                    <span class="hljs-attr">2</span>,
+                    <span class="hljs-attr">1</span>
                 ]
             },
             <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,</span>
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">70</span>,</span>
-            <span class="hljs-attr">50</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">6000</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">70</span>,
+                    <span class="hljs-attr">50</span>,
+                    <span class="hljs-attr">30</span>,
+                    <span class="hljs-attr">20</span>
                 ]
             },
             <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,</span>
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">550</span>,</span>
-            <span class="hljs-attr">450</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">600</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">550</span>,
+                    <span class="hljs-attr">450</span>,
+                    <span class="hljs-attr">350</span>,
+                    <span class="hljs-attr">250</span>
                 ]
             },
             <span class="hljs-attr">"top4"</span>: {
-            <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,</span>
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">3500</span>,</span>
-            <span class="hljs-attr">3000</span>
+                <span class="hljs-attr">"amount"</span>: <span class="hljs-number">1000</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">2500</span>,
+                    <span class="hljs-attr">2000</span>,
+                    <span class="hljs-attr">1500</span>,
+                    <span class="hljs-attr">1000</span>
                 ]
             },
             <span class="hljs-attr">"top5"</span>: {
-            <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,</span>
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">10000</span>,
-            <span class="hljs-attr">5000</span>
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">15000</span>,
+                    <span class="hljs-attr">10000</span>,
+                    <span class="hljs-attr">5000</span>
                 ]
             },
             <span class="hljs-attr">"top6"</span>: {
-            <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 1000</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">30000</span>,
-            <span class="hljs-attr">25000</span>,
-            <span class="hljs-attr">20000</span>,
-            <span class="hljs-attr">15000</span>
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number"> 500</span>,
+                <span class="hljs-attr">"levellist"</span>: [
+                    <span class="hljs-attr">30000</span>,
+                    <span class="hljs-attr">25000</span>,
+                    <span class="hljs-attr">20000</span>,
+                    <span class="hljs-attr">10000</span>
                 ]
             }
         },
         <span class="hljs-attr">"yeekeelotto"</span>: {
-        <span class="hljs-attr">"bottom1"</span>: {
-        <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-        <span class="hljs-attr">"levellist"</span>: [
-        <span class="hljs-attr">3.2</span>
-                ]
+            <span class="hljs-attr">"bottom1"</span>: {
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"bottom2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">80</span>,
-            <span class="hljs-attr">70</span>
-                ]
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"row3"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">140</span>,
-            <span class="hljs-attr">130</span>
-                ]
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">5000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top1"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">2.2</span>
-                ]
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">10000</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top2"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">80</span>,
-            <span class="hljs-attr">70</span>
-                ]
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">2500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             },
             <span class="hljs-attr">"top3"</span>: {
-            <span class="hljs-attr">"amount"<span class="hljs-number">0</span>,
-            <span class="hljs-attr">"levellist"</span>: [
-            <span class="hljs-attr">890</span>,
-            <span class="hljs-attr">880</span>
-                ]
+                <span class="hljs-attr">"amount"</span>:<span class="hljs-number">500</span>,
+                <span class="hljs-attr">"levellist"</span>: []
             }
         }
     }
 }
-    }
-}</code></pre>
+</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -8927,7 +8850,45 @@
                     <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
                 }
             },
-            <span class="hljs-attr">"laoslotto_thai"</span>: {
+            <span class="hljs-attr">"laoslotto_set"</span>: {
+                <span class="hljs-attr">"back2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">600</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">15</span>
+                    },
+                <span class="hljs-attr">"front2"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">600</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">15</span>
+                },
+                <span class="hljs-attr">"row3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">600</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">25</span>
+                },
+                <span class="hljs-attr">"row4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">600</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">40</span>
+                },
+                <span class="hljs-attr">"top3"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">600</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">350</span>
+                },
+                <span class="hljs-attr">"top4"</span>: {
+                    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">600</span>,
+                    <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
+                }
+            },
+            <span class="hljs-attr">"laoslotto"</span>: {
                 <span class="hljs-attr">"bottom1"</span>: {
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"max"</span>: <span class="hljs-number">200000</span>,
@@ -9021,7 +8982,7 @@
                     <span class="hljs-attr">"payout"</span>: <span class="hljs-number">900</span>
                 }
             },
-            <span class="hljs-attr">"malaylotto"</span>: {
+            <span class="hljs-attr">"malaylotto_set"</span>: {
                 <span class="hljs-attr">"back2"</span>: {
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"max"</span>: <span class="hljs-number">3000</span>,
@@ -9054,7 +9015,7 @@
                 },
                 <span class="hljs-attr">"top4"</span>: {
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">5000</span>,
+                    <span class="hljs-attr">"max"</span>: <span class="hljs-number">600</span>,
                     <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
                     <span class="hljs-attr">"payout"</span>: <span class="hljs-number">1000</span>
                 }
@@ -9184,7 +9145,7 @@
                     <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
                     <span class="hljs-attr">"payout"</span>: <span class="hljs-number">225</span>
                 },
-                <span class="hljs-attr">"row22"</span>: {
+                <span class="hljs-attr">"row2"</span>: {
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"max"</span>: <span class="hljs-number">20000</span>,
                     <span class="hljs-attr">"min"</span>: <span class="hljs-number">1</span>,
