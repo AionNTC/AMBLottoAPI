@@ -467,6 +467,44 @@
                             </table>
                         </div>
                     </div>
+                    <div class="form-group col-3"></div>
+                    <div class="form-group col-2"></div>
+                    <div class="form-group col-12">
+                        <label set-lan="html:You can add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        คุณสามารถเพิ่มค่าพารามิเตอร์ต่อท้ายในลิงค์ (&betType=) เพื่อเปลี่ยนเส้นทางให้ผู้เล่นไปยังหน้าแทง AMB Lotto ประเภทนั้นๆ</label>
+                    </div>
+                    <div class="form-group col-2"></div>
+                    <div class="form-group col-6">
+                    <div class="table-wrapper">
+                            <table class="table table-borderless table-striped">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th class="bRight txtCenter" style="width: 200px;">Name</th>
+                                        <th class="bRight txtCenter" style="width: 210px;">Value of parameter</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight txtMid">ส่วนของหวยปกติ</td>
+                                        <td class="bRight txtCenter txtMid">lotto</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">ส่วนของหวยออนไลน์</td>
+                                        <td class="bRight txtCenter txtMid">online</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">ส่วนของหวยหุ้น</td>
+                                        <td class="bRight txtCenter txtMid">stock</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">ส่วนของหวยชุด</td>
+                                        <td class="bRight txtCenter txtMid">set</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
@@ -685,6 +723,34 @@
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">yeekeehome
                                         :&nbsp;</label><label style="margin-bottom:0px">https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&<label class="txtHead" style="margin-bottom:0px">lottotype=yeekeehome</label></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">lotto
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&<label class="txtHead" style="margin-bottom:0px">betType=lotto</label></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">online
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&<label class="txtHead" style="margin-bottom:0px">betType=online</label></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stock
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&<label class="txtHead" style="margin-bottom:0px">betType=stock</label></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">set
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&<label class="txtHead" style="margin-bottom:0px">betType=set</label></label>
                                 </div>
                             </div>
                         </div>
@@ -982,6 +1048,34 @@
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">yeekeehome
                                         :&nbsp;</label><label style="margin-bottom:0px">https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&lottotype=yeekeehome&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">lotto
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&betType=lotto&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">online
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&betType=online&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stock
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&betType=stock&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">set
+                                        :&nbsp;</label><label style="margin-bottom:0px">https://test.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&betType=set&url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
                                 </div>
                             </div>
                         </div>
