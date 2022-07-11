@@ -2241,6 +2241,16 @@
                                         <td class="bRight">User bet amount.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">drawName</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Label of Lotto concatenate with Round.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">drawExpire</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Close time of Round of  Lotto. format(YYYY-MM-DD HH:mm:ss).</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
                                         <td class="bRight">Bet Detail.</td>
@@ -2320,6 +2330,21 @@
                                         <td class="bRight">String</td>
                                         <td class="bRight">The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
+                                    <tr>
+                                        <td class="bRight">Ip</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">IP Address</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">currency</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">currency</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">DrawOpen</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Open time of Round of  Lotto. format(YYYY-MM-DD HH:mm:ss)</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -2342,6 +2367,8 @@
         <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
         <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">21605</span>,
         <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-100</span>,
+        <span class="hljs-attr">"drawName"</span>: <span class="hljs-number">"Yeekee Lotto Round 51"</span>,
+        <span class="hljs-attr">"drawExpire"</span>: <span class="hljs-number">"2022-07-07 18:28:00"</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
                 <span class="hljs-attr">"agentPt"</span>: <span class="hljs-number">"20"</span>,
@@ -2360,7 +2387,10 @@
             }
         ],
         <span class="hljs-attr">"status"</span>: <span class="hljs-number">"Pending"</span>,
-        <span class="hljs-attr">"createDate"</span>: <span class="hljs-number">"2021-07-17 17:20:28"</span>
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-number">"2021-07-17 17:20:28"</span>,
+        <span class="hljs-attr">"ip"</span>: <span class="hljs-number">"180.183.121.242"</span>,
+        <span class="hljs-attr">"currency"</span>: <span class="hljs-number">"thb"</span>,
+        <span class="hljs-attr">"DrawOpen"</span>: <span class="hljs-number">"2022-07-07 05:00:00"</span>
     }
 }</code></pre>
                                 </div>
@@ -2635,6 +2665,11 @@
                                         <td class="bRight">String</td>
                                         <td class="bRight">The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
+                                    <tr>
+                                        <td class="bRight">currency</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">currency</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -2690,7 +2725,8 @@
             }
         ],
         <span class="hljs-attr">"status"</span>: <span class="hljs-string">"Cancel"</span>,
-        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-09 20:53:31"</span>
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-09 20:53:31"</span>,
+        <span class="hljs-attr">"currency"</span>: <span class="hljs-string">"thb"</span>
     }
 }</code></pre>
                                 </div>
@@ -2955,6 +2991,11 @@
                                         <td class="bRight">String</td>
                                         <td class="bRight">Link for show game reslut of this drawId.</td>
                                     </tr>
+                                    <tr>
+                                        <td class="bRight">currency</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">currency</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -3018,7 +3059,8 @@
             ],
         },
         <span class="hljs-attr">"resultlink"</span>: <span class="hljs-string">"https://test-ag.pirate168.com/api/reward/21330"</span>,
-        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-14 20:26:39"</span>
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-14 20:26:39"</span>,
+        <span class="hljs-attr">"currency"</span>: <span class="hljs-string">"thb"</span>
     }
 }</code></pre>
                                 </div>
