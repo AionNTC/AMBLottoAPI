@@ -6697,7 +6697,7 @@
                                     <pre class="col-6">
                                     <p style="margin:0;font-size: 1rem;color: #19A17A" class="text-center"><b>หวยแทงปกติ</b></p>
                                         <code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"testcompany"</span>,
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>,
     <span class="hljs-attr">"services"</span>: <span class="hljs-string">"SetPlaceOut"</span>,
     <span class="hljs-attr">"data"</span>: {
@@ -6957,7 +6957,7 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"testcompany"</span>,
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>
 }</code></pre>
                                 </div>
@@ -8333,7 +8333,7 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"testcompany"</span>,
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>,
 }</code></pre>
                                 </div>
@@ -8564,7 +8564,7 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"testcompany"</span>,
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>
 }</code></pre>
                                 </div>
@@ -9467,7 +9467,7 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"testcompany"</span>,
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>,
     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"pirate0001"</span>,
     <span class="hljs-attr">"betId"</span>: <span class="hljs-string">""</span>,
