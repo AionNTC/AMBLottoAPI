@@ -304,6 +304,10 @@
                                         <span class="sv-normal" set-lan="html:4.12">5.12
                                             GetListBetResult</span></a>
                                 </li>
+                                <li id="manu513"><a class="waves-effect submenu" href="transferwallet.php#tab13">
+                                        <span class="sv-normal" set-lan="html:4.12">5.13
+                                                Detail</span></a>
+                                </li>
                             </ul>
 
                             <!-- <ul>

@@ -8564,8 +8564,8 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"exp"</span>,
-    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"88d6996236e46debf357ca1fc31b63ca648c8a34ccf9a871c4a8f2ffb6adad"</span>
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"buildexcompany"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"504947f655f822e2f8f414bbc1a34ba763c7570ef638135f30b5696c899f806901e163f59f3a86d0c8cd"</span>
 }</code></pre>
                                 </div>
                             </div>
