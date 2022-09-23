@@ -296,10 +296,14 @@
                                         <span class="sv-normal" set-lan="html:4.10">5.10
                                             DepositWithdrawHistory</span></a>
                                 </li>
-                                <li id="manu511"><a class="waves-effect submenu" href="transferwallet.php#tab11">
+                                <li id="manu510"><a class="waves-effect submenu" style="padding-right:0;" href="transferwallet.php#tab11">
+                                        <span class="sv-normal" set-lan="html:4.10">5.11
+                                        DepositWithdrawHistoryByTransId</span></a>
+                                </li>
+                                <!-- <li id="manu511"><a class="waves-effect submenu" href="transferwallet.php#tab11">
                                         <span class="sv-normal" set-lan="html:4.11">5.11
                                             DepositWithdrawHistoryByTransId</span></a>
-                                </li>
+                                </li> -->
                                 <li id="manu512"><a class="waves-effect submenu" href="transferwallet.php#tab12">
                                         <span class="sv-normal" set-lan="html:4.12">5.12
                                             GetListBetResult</span></a>
