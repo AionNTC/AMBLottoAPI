@@ -414,7 +414,7 @@
                     },
                     <span class="hljs-attr">"row3"</span>: {
                         <span class="hljs-attr">  "discount"</span>: <span class="hljs-string">0,</span>
-                        <span class="hljs-attr"> "max"</span>: <span class="hljs-string"> 20000,,</span>
+                        <span class="hljs-attr"> "max"</span>: <span class="hljs-string"> 20000,</span>
                         <span class="hljs-attr"> "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr"> "payout"</span>: <span class="hljs-string"> 150</span>
                     },
