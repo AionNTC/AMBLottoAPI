@@ -170,6 +170,7 @@
         <span class="hljs-attr">"phone"</span>: <span class="hljs-string">"081111111111",</span>
         <span class="hljs-attr">"email"</span>: <span class="hljs-string">"google1@gmail.com",</span>
         <span class="hljs-attr">"line"</span>: <span class="hljs-string">"line1",</span>
+        <span class="hljs-attr">"currency"</span>: <span class="hljs-string">"THB",</span>
         <span class="hljs-attr">"rate"</span>: {
             <span class="hljs-attr">"baaclotto"</span>: {
                 <span class="hljs-attr">"bottom1"</span>: {
